@@ -4,6 +4,9 @@ This set contains some tools to process network trace.
 "tracecap":
 	A light trace dumper with time setter and filters. Very simpler than Tcpdump. Find more usage information from its README file.
 
+"FeatureGen"
+	Generate various features of tcp flows.
+
 =====
 Tools developed by other programmers or organizations:
 
