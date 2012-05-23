@@ -5,7 +5,10 @@ This set contains some tools to process network trace.
 	A light trace dumper with time setter and filters. Very simpler than Tcpdump. Find more usage information from its README file.
 
 "FeatureGen"
-	Generate various features of tcp flows.
+	Generate various features of tcp flows. By Li Zhang
+	
+"replay"
+	TCP flow replayer. By Yingdi Yu
 
 =====
 Tools developed by other programmers or organizations:
