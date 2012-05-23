@@ -1,6 +1,7 @@
 This set contains some tools to process network trace.
 
 =====
+Tools from OMNILAB, SJTU. http://omnilab.sjtu.edu.cn/
 "tracecap":
 	A light trace dumper with time setter and filters. Very simpler than Tcpdump. Find more usage information from its README file.
 
@@ -28,7 +29,15 @@ Tools developed by other programmers or organizations:
 "tcptrace":
 	tcptrace is a tool written by Shawn Ostermann at Ohio University, for analysis of TCP dump files. It can take as input the files produced by several popular packet-capture programs, including tcpdump, snoop, etherpeek, HP Net Metrix, and WinDump. tcptrace can produce several different types of output containing information on each connection seen, such as elapsed time, bytes and segments sent and recieved, retransmissions, round trip times, window advertisements, throughput, and more. It can also produce a number of graphs for further analysis.
 	http://tcptrace.org/index.html
-
+	
+"pcap2har":
+	converts .pcap network capture files to HTTP Archive files.
+	https://github.com/andrewf/pcap2har
+	
+"dpkt":
+	fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols.
+	http://code.google.com/p/dpkt/
+	
 More related projects:
 	http://www.tcpdump.org/related.html
 
