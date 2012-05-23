@@ -37,6 +37,21 @@ Tools developed by other programmers or organizations:
 "dpkt":
 	fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols.
 	http://code.google.com/p/dpkt/
+
+"wireshark":
+	All tools in wireshark package:
+	capinfos - Prints information about capture files
+	dftest - Shows display filter byte-code, for debugging dfilter routines.
+	dumpcap - Dump network traffic
+	editcap - Edit and/or translate the format of capture files
+	idl2wrs - CORBA IDL to Wireshark Plugin Generator
+	mergecap - Merges two or more capture files into one
+	randpkt - Random Packet Generator
+	rawshark - Dump and analyze raw libpcap data
+	text2pcap - Generate a capture file from an ASCII hexdump of packets
+	tshark - Dump and analyze network traffic
+	wireshark-filter - Wireshark filter syntax and reference
+	wireshark - Interactively dump and analyze network traffic
 	
 More related projects:
 	http://www.tcpdump.org/related.html
