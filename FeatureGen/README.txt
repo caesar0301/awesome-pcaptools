@@ -1,1 +1,0 @@
-Author: Li Zhang, intern of OMNILAB in summer holiday, 2010
