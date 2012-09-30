@@ -11,7 +11,12 @@ a portable C/C++ library for network traffic capture.
 http://www.tcpdump.org/
 
 * ngrep,
-Ngrep strives to provide most of GNU grep's common features, applying them to the network layer. ngrep is a pcap-aware tool that will allow you to specify extended regular or hexadecimal expressions to match against data payloads of packets. It currently recognizes TCP, UDP and ICMP across Ethernet, PPP, SLIP, FDDI, Token Ring and null interfaces, and understands bpf filter logic in the same fashion as more common packet sniffing tools, such as tcpdump and snoop.
+Ngrep strives to provide most of GNU grep's common features, applying them to the network 
+layer. ngrep is a pcap-aware tool that will allow you to specify extended regular or 
+hexadecimal expressions to match against data payloads of packets. It currently recognizes
+TCP, UDP and ICMP across Ethernet, PPP, SLIP, FDDI, Token Ring and null interfaces, and
+understands bpf filter logic in the same fashion as more common packet sniffing tools, 
+such as tcpdump and snoop.
 http://www.packetfactory.net/Projects/ngrep
 
 * TTT: Tele Traffic Tapper
@@ -306,7 +311,7 @@ The goal of Xplico is extract from an internet traffic capture the applications
 data contained.
 For example, from a pcap file Xplico extracts each email (POP, IMAP, and SMTP 
 protocols), all HTTP contents, each VoIP call (SIP), FTP, TFTP, and so on. Xplico 
-isn��t a network protocol analyzer. Xplico is an open source Network Forensic An
+isn't a network protocol analyzer. Xplico is an open source Network Forensic An
 alysis Tool (NFAT).
 Xplico is released under the GNU General Public License and with some scripts 
 under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC 
