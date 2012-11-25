@@ -1,16 +1,21 @@
-This project dose not contain any source code or files.
-I just want to make a list of tools to process pcap files in research of network traffic.
+About
+==========
+This project dose not contain any source code or files. I just want to make a list of tools to process pcap files in research of network traffic.
+
 chenxm, SJTU, China
+
 Update: 2012-09-25
 
 Data Collection
 -----------------
-* libpcap/tcpdump,
+* libpcap/tcpdump
+
 the official site of tcpdump, a powerful command-line packet analyzer; and libpcap, 
 a portable C/C++ library for network traffic capture.
 http://www.tcpdump.org/
 
-* ngrep,
+* Ngrep
+
 Ngrep strives to provide most of GNU grep's common features, applying them to the network 
 layer. ngrep is a pcap-aware tool that will allow you to specify extended regular or 
 hexadecimal expressions to match against data payloads of packets. It currently recognizes
@@ -20,6 +25,7 @@ such as tcpdump and snoop.
 http://www.packetfactory.net/Projects/ngrep
 
 * TTT: Tele Traffic Tapper
+
 TTT is yet another descendant of tcpdump but it is capable 
 of real-time, graphical, and remote traffic-monitoring. ttt won't replace tcpdump, 
 rather, it helps you find out what to look into with tcpdump. ttt monitors the 
@@ -27,9 +33,10 @@ network and automatically picks up the main contributors of the traffic within t
 time window. The graphs are updated every second by default.
 http://www.csl.sony.co.jp/person/kjc/kjc/software.html#ttt
 
-=Data Analysis=
+Data Analysis
+-------------
+* Wireshark suit
 
-* Wireshark suit,
 which includes a few practical tools to support most of the common usage. Here is a brief list of these tools:
 ** capinfos - Prints information about capture files
 ** dftest - Shows display filter byte-code, for debugging dfilter routines.
@@ -46,11 +53,13 @@ which includes a few practical tools to support most of the common usage. Here i
 http://www.wireshark.org/
 
 * WAND
+
 A wonderful collection of tools built on libtrace to process network traffic, 
 which is from The University of Waikato. I love this project!
 http://research.wand.net.nz/
 
-* tcptrace,
+* tcptrace
+
 a tool written by Shawn Ostermann at Ohio University, for analysis of TCP dump files. 
 It can take as input the files produced by several popular packet-capture programs, 
 including tcpdump, snoop, etherpeek, HP Net Metrix, and WinDump. tcptrace can produce 
@@ -60,14 +69,16 @@ times, window advertisements, throughput, and more. It can also produce a number
 graphs for further analysis.
 http://tcptrace.org/index.html
 
-* tcpsplit,
+* tcpsplit
+
 a tool to break a single libpcap packet trace into some number of sub-traces, breaking 
 the trace along TCP connection boundaries so that a TCP connection doesn't end up split 
 across two sub-traces. This is useful for making large trace files tractable for in-
 depth analysis and for subsetting a trace for developing analysis on only part of a trace.
 http://www.icir.org/mallman/software/tcpsplit/
 
-* tcpflow,
+* tcpflow
+
 a program that captures data transmitted as part of TCP connections (flows), and stores 
 the data in a way that is convenient for protocol analysis or debugging. 
 A program like 'tcpdump' shows a summary of packets seen on the wire, but usually 
@@ -76,14 +87,16 @@ In contrast, tcpflow reconstructs the actual data streams and stores each flow i
 separate file for later analysis.
 http://www.circlemud.org/jelson/software/tcpflow/
 
-* tcplook,
+* tcplook
+
 Tracelook is an Tcl/TK program for graphically viewing the contents of 
 trace files created using the -w argument to tcpdump. Tracelook should 
 look at all protocols, but presently only looks at TCP connections. The 
 program is slow and uses system resources prodigiously.
 http://ita.ee.lbl.gov/html/contrib/tracelook.html
 
-* tcpdpriv,
+* tcpdpriv
+
 Tcpdpriv is program for eliminating confidential information (user data 
 and addresses) from packets collected on a network interface (or, from 
 trace files created using the -w argument to tcpdump). Tcpdpriv removes 
@@ -92,16 +105,19 @@ It implements several address scrambling methods; the sequential numbering
 method and its variants, and a hash method with preserving address prefix.
 http://ita.ee.lbl.gov/html/contrib/tcpdpriv.html
 
-* dpkt,
+* dpkt
+
 python packet creation/parsing library
 http://code.google.com/p/dpkt/
 	
-* pcap2har,
+* pcap2har
+
 a program to convert .pcap network capture files to HTTP Archive files 
 using library dpkt.
 https://github.com/andrewf/pcap2har
 
-* Libnet,
+* Libnet
+
 Libnet is a collection of routines to help with the construction and handling 
 of network packets. It provides a portable framework for low-level network 
 packet shaping, handling and injection. Libnet features portable packet creation 
@@ -110,11 +126,13 @@ and complementary functionality. Using libnet, quick and simple packet assembly
 applications can be whipped up with little effort.
 http://www.packetfactory.net/Projects/Libnet/
 
-* tcpreplay,
+* tcpreplay
+
 Replays a pcap file on an interface using libnet.
 http://sourceforge.net/projects/tcpreplay/
 
-* tcpslice,
+* tcpslice
+
 tcpslice is a tool for extracting portions of packet trace files generated 
 using tcpdump's -w flag. It can combine multiple trace files, and/or extract 
 portions of one or more traces based on time. TCPslice originally comes from: 
@@ -123,12 +141,14 @@ found in the tcpdump CVS server, as the project tcpslice.
 ftp://ftp.ee.lbl.gov/tcpslice.tar.gz
 
 * tcpstat
+
 tcpstat reports certain network interface statistics much like vmstat does 
 for system statistics. tcpstat gets its information by either monitoring a 
 specific interface, or by reading previously saved tcpdump data from a file.
 http://www.frenchfries.net/paul/tcpstat/
 
-* TCP-Reduce,
+* TCP-Reduce
+
 CP-Reduce is a collection of Bourne shell scripts for reducing tcpdump 
 traces to one-line summaries of each TCP connection present in the trace. 
 The scripts look only at TCP SYN/FIN/RST packets. Connections without SYN 
@@ -140,14 +160,16 @@ numbers, and reports erroneous huge connection sizes - always check large
 connections (say 100 MB or more) for plausibility.
 http://ita.ee.lbl.gov/html/contrib/tcp-reduce.html
 
-* ECap,
+* ECap
+
 Ecap (external capture) is a distributed network sniffer with a web front-end.
 Ecap was written many years ago in 2005, but a post on the tcpdump-workers 
 mailing list requested a similar application... so here it is.
 It would be fun to update it and work on it again if there's any interest.
 https://bitbucket.org/nathanj/ecap/wiki
 
-* Network Expect,
+* Network Expect
+
 Network Expect is a framework that allows to easily build tools that can 
 interact with network traffic. Following a script, traffic can be injected 
 into the network, and decisions can be taken, and acted upon, based on received 
@@ -158,17 +180,20 @@ for packet dissection tasks. (GPL, BSD/Linux/OSX)
 Submitted by: Eloy Paris {peloy at chapus.net}
 http://www.netexpect.org/
 
-* Socket Sentry,
+* Socket Sentry
+
 Socket Sentry is a real-time network traffic monitor for KDE Plasma in the same 
 spirit as tools like iftop and netstat. 
 Submitted by: Rob Hasselbaum {rob at hasselbaum.net}
 http://code.google.com/p/socket-sentry
 
 * Sniff
+
 Makes output from the tcpdump program easier to read and parse.
 http://www.thedumbterminal.co.uk/software/sniff.html
 
 * EtherApe
+
 EtherApe is a graphical network monitor for Unix modeled after etherman. 
 Featuring link layer, ip and TCP modes, it displays network activity graphically. 
 Hosts and links change in size with traffic. Color coded protocols display. 
@@ -176,7 +201,8 @@ It supports Ethernet, FDDI, Token Ring, ISDN, PPP and SLIP devices. It can filte
 traffic to be shown, and can read traffic from a file as well as live from the network.
 http://etherape.sourceforge.net/
 
-* snort
+* Snort
+
 Snort is an open source network intrusion prevention and detection system (IDS/IPS) 
 developed by Sourcefire. Combining the benefits of signature, protocol and anomaly-
 based inspection, Snort is the most widely deployed IDS/IPS technology worldwide. 
@@ -184,7 +210,8 @@ With millions of downloads and approximately 300,000 registered users, Snort has
 become the de facto standard for IPS. 
 http://www.snort.org/
 
-* Scapy,
+* Scapy
+
 Scapy is a powerful interactive packet manipulation program. It is able to forge 
 or decode packets of a wide number of protocols, send them on the wire, capture 
 them, match requests and replies, and much more. It can easily handle most 
@@ -196,7 +223,8 @@ injecting your own 802.11 frames, combining technics (VLAN hopping+ARP cache
 poisoning, VOIP decoding on WEP encrypted channel, ...), etc.
 http://www.secdev.org/projects/scapy/
 
-* Bro,
+* Bro
+
 Bro is an open-source, Unix-based Network Intrusion Detection System (NIDS) 
 that passively monitors network traffic and looks for suspicious activity. 
 Bro detects intrusions by first parsing network traffic to extract its 
@@ -208,14 +236,16 @@ certain hosts connecting to certain services, or patterns of failed connection
 attempts).
 http://bro-ids.org/
 
-* ntop,
+* ntop
+
 ntop is a network traffic probe that shows the network usage, similar to 
 what the popular top Unix command does. ntop is based on libpcap and it 
 has been written in a portable way in order to virtually run on every 
 Unix platform and on Win32 as well.
 http://www.ntop.org/
 
-* CoralReef,
+* CoralReef
+
 CoralReef is a software suite developed by CAIDA to analyze data collected 
 by passive Internet traffic monitors. It provides a programming library 
 libcoral, similar to libpcap with extensions for ATM and other network types, 
@@ -228,27 +258,32 @@ This package is maintained by CAIDA developers with the support and collaboratio
 of the Internet measurement community.
 http://www.caida.org/tools/measurement/coralreef/
 
-* xplot,
+* xplot
+
 The program xplot was written in the late 1980s to support the analysis of 
 TCP packet traces.
 http://www.xplot.org/
 
-* Multitail,
+* Multitail
+
 MultiTail now has a colorscheme included for monitoring the tcpdump output. 
 It can also filter, convert timestamps to timestrings and much more.
 http://www.vanheusden.com/multitail
 
 * netsniff-ng
+
 netsniff-ng is a free, performant Linux network analyzer and networking toolkit. 
 http://netsniff-ng.org/
 
-* NetDude,
+* NetDude
+
 netdude (NETwork DUmp data Displayer and Editor). From their webpage, "it is a 
 GUI-based tool that allows you to make detailed changes to packets in tcpdump 
 tracefiles." 
 http://netdude.sourceforge.net/
 
 * libcrafter
+
 Libcrafter is a high level library for C++ designed to make easier the creation 
 and decoding of network packets. It is able to craft or decode packets of most 
 common network protocols, send them on the wire, capture them and match requests 
@@ -257,10 +292,12 @@ Submitted by: Esteban Pellegrino
 http://code.google.com/p/libcrafter/
 
 * WinPcap info
+
 An extract of a message from Guy Harris on state of WinPcap and WinDump.
 http://www.tcpdump.org/wpcap.html
 
 * Sniffer
+
 The Sniffer product family covers different fields of application (Distributed, 
 Portable and Wireless Environment). Sniffer solutions monitor, troubleshoot, 
 analyze, report on, and proactively manage network performance. They ensure 
@@ -270,6 +307,7 @@ Asynchronous ATM, Gigabit, and Packet-over-SONET (PoS) backbones.
 http://www.sniffer.com/products/sniffer-basic/default.asp?A=2
 
 * Traffic Data Repository at the WIDE Project
+
 It becomes increasingly important for both network researchers and operators 
 to know the trend of network traffic and to find anomaly in their network 
 traffic. This paper describes an on-going effort within the WIDE project to 
@@ -282,6 +320,7 @@ and findings in the early stage of our IPv6 deployment.
 http://www.sonycsl.co.jp/person/kjc/papers/freenix2000/
 
 * ITA: Internet Traffic Archive
+
 The Internet Traffic Archive is a moderated repository to support widespread 
 access to traces of Internet network traffic, sponsored by ACM SIGCOMM. 
 The traces can be used to study network dynamics, usage characteristics, 
@@ -291,6 +330,7 @@ manageable forms, for generating synthetic traces, and for analyzing traces.
 http://www.sigcomm.org/ITA/
 
 * Sanitize
+
 Sanitize is a collection of five Bourne shell scripts for reducing tcpdump 
 traces in order to address security and privacy concerns, by renumbering hosts 
 and stripping out packet contents. Each script takes as input a tcpdump trace 
@@ -304,9 +344,10 @@ reducing all TCP packets, so the host renumbering performed by each will be
 independent.
 http://ita.ee.lbl.gov/html/contrib/sanitize.html
 
-=File Extraction=
-
+File Extraction
+---------------
 * xplico
+
 The goal of Xplico is extract from an internet traffic capture the applications 
 data contained.
 For example, from a pcap file Xplico extracts each email (POP, IMAP, and SMTP 
@@ -319,6 +360,7 @@ BY-NC-SA 3.0) License.
 http://www.xplico.org/about
 
 * NetworkMiner
+
 NetworkMiner is a Network Forensic Analysis Tool (NFAT) for Windows (but also 
 works in Linux / Mac OS X / FreeBSD). NetworkMiner can be used as a passive 
 network sniffer/packet capturing tool in order to detect operating systems, 
@@ -328,6 +370,7 @@ reassemble transmitted files and certificates from PCAP files.
 http://www.netresec.com/?page=NetworkMiner
 
 * tcpxtract
+
 tcpxtract is a tool for extracting files from network traffic based on file 
 signatures. Extracting files based on file type headers and footers (sometimes 
 called "carving") is an age old data recovery technique. Tools like Foremost 
@@ -344,6 +387,7 @@ following:
 http://tcpxtract.sourceforge.net/
 
 * foremost
+
 Foremost is a console program to recover files based on their headers, footers, 
 and internal data structures. This process is commonly referred to as data carving. 
 Foremost can work on image files, such as those generated by dd, Safeback, Encase, 
@@ -354,6 +398,7 @@ allowing for a more reliable and faster recovery.
 http://foremost.sourceforge.net/
 
 * dsniff
+
 dsniff is a collection of tools for network auditing and penetration testing. 
 dsniff, filesnarf, mailsnarf, msgsnarf, urlsnarf, and webspy passively monitor 
 a network for interesting data (passwords, e-mail, files, etc.). arpspoof, 
@@ -364,6 +409,7 @@ sessions by exploiting weak bindings in ad-hoc PKI.
 http://www.monkey.org/~dugsong/dsniff/
 
 * Chaosreader
+
 A freeware tool to trace TCP/UDP/... sessions and fetch application data from 
 snoop or tcpdump logs. This is a type of "any-snarf" program, as it will fetch 
 telnet sessions, FTP files, HTTP transfers (HTML, GIF, JPEG, ...), SMTP emails, 
@@ -376,6 +422,7 @@ and then processes them.
 http://chaosreader.sourceforge.net/
 
 * tcpick
+
 tcpick is a textmode sniffer libpcap-based that can track, reassemble and
 reorder tcp streams. Tcpick is able to save the captured flows in different
 files or displays them in the terminal, and so it is useful to sniff files
@@ -391,9 +438,10 @@ http://tcpick.sourceforge.net/
 
 
 
-=Other Projects=
-
+Other Projects
+-------------
 * FFT-FGN-C
+
 FFT-FGN-C is a program for synthesizing a type of self-similar process known
 as fractional Gaussian noise. The program is fast but approximate. Fractional 
 Gaussian noise is only one type of self-similar process. When using this 
@@ -408,6 +456,7 @@ research area).
 http://ita.ee.lbl.gov/html/contrib/fft_fgn_c.html
 
 * Usenix 93 paper on BPF
+
 The libpcap interface supports a filtering mechanism based on the architecture 
 in the BSD packet filter. BPF is described in the 1993 Winter Usenix paper 
 "The BSD Packet Filter: A New Architecture for User-level Packet Capture".
@@ -417,15 +466,18 @@ in the BSD packet filter. BPF is described in the 1993 Winter Usenix paper
 ** For the Post-script impaired, here is some PDF:bpf-usenix93.pdf (135K)
 
 * BPF for Ultrix
+
 A distribution of BPF for Ultrix 4.2, with both source code and binary modules.
 http://www.tcpdump.org/other/bpfext42.tar.Z
 
 * BPF+
+
 Exploiting Global Data-flow Optimization in a Generalized Packet Filter Architecture
 By Andrew Begel, Steven McCanne, and Susan Graham, originally at: 
 http://www.cs.berkeley.edu/~abegel/sigcomm99/bpf+.ps
 
 * DPF
+
 A paper presented at SIGCOMM '96 on an enhanced version of BPF.
 http://www.pdos.lcs.mit.edu/~engler/dpf.html
 
