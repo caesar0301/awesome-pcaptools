@@ -10,7 +10,7 @@ Data Collection
 -----------------
 * libpcap/tcpdump (R)
 
-the official site of tcpdump, a powerful command-line packet analyzer; and libpcap, 
+The official site of tcpdump, a powerful command-line packet analyzer; and libpcap, 
 a portable C/C++ library for network traffic capture.
 http://www.tcpdump.org/
 
