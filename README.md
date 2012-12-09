@@ -79,13 +79,25 @@ http://www.icir.org/mallman/software/tcpsplit/
 
 * tcpflow (R)
 
-a program that captures data transmitted as part of TCP connections (flows), and stores 
+A program that captures data transmitted as part of TCP connections (flows), and stores 
 the data in a way that is convenient for protocol analysis or debugging. 
 A program like 'tcpdump' shows a summary of packets seen on the wire, but usually 
 doesn't store the data that's actually being transmitted. 
 In contrast, tcpflow reconstructs the actual data streams and stores each flow in a 
 separate file for later analysis.
 http://www.circlemud.org/jelson/software/tcpflow/
+
+* tcpreplay
+
+Replays a pcap file on an interface using libnet.
+http://sourceforge.net/projects/tcpreplay/
+
+* tcpstat
+
+Tcpstat reports certain network interface statistics much like vmstat does 
+for system statistics. tcpstat gets its information by either monitoring a 
+specific interface, or by reading previously saved tcpdump data from a file.
+http://www.frenchfries.net/paul/tcpstat/
 
 * tcplook
 
@@ -105,47 +117,14 @@ It implements several address scrambling methods; the sequential numbering
 method and its variants, and a hash method with preserving address prefix.
 http://ita.ee.lbl.gov/html/contrib/tcpdpriv.html
 
-* dpkt
-
-python packet creation/parsing library
-http://code.google.com/p/dpkt/
-	
-* pcap2har
-
-a program to convert .pcap network capture files to HTTP Archive files 
-using library dpkt.
-https://github.com/andrewf/pcap2har
-
-* Libnet
-
-Libnet is a collection of routines to help with the construction and handling 
-of network packets. It provides a portable framework for low-level network 
-packet shaping, handling and injection. Libnet features portable packet creation 
-interfaces at the IP layer and link layer, as well as a host of supplementary 
-and complementary functionality. Using libnet, quick and simple packet assembly 
-applications can be whipped up with little effort.
-http://www.packetfactory.net/Projects/Libnet/
-
-* tcpreplay
-
-Replays a pcap file on an interface using libnet.
-http://sourceforge.net/projects/tcpreplay/
-
 * tcpslice
 
-tcpslice is a tool for extracting portions of packet trace files generated 
+Tcpslice is a tool for extracting portions of packet trace files generated 
 using tcpdump's -w flag. It can combine multiple trace files, and/or extract 
 portions of one or more traces based on time. TCPslice originally comes from: 
 ftp://ftp.ee.lbl.gov/tcpslice.tar.gz also mirrored here. tcpslice can also be
 found in the tcpdump CVS server, as the project tcpslice.
 ftp://ftp.ee.lbl.gov/tcpslice.tar.gz
-
-* tcpstat
-
-tcpstat reports certain network interface statistics much like vmstat does 
-for system statistics. tcpstat gets its information by either monitoring a 
-specific interface, or by reading previously saved tcpdump data from a file.
-http://www.frenchfries.net/paul/tcpstat/
 
 * TCP-Reduce
 
@@ -159,6 +138,27 @@ Occasionally the script gets fooled by retransmissions with altered sequence
 numbers, and reports erroneous huge connection sizes - always check large 
 connections (say 100 MB or more) for plausibility.
 http://ita.ee.lbl.gov/html/contrib/tcp-reduce.html
+
+* dpkt
+
+python packet creation/parsing library
+http://code.google.com/p/dpkt/
+	
+* pcap2har
+
+A program to convert .pcap network capture files to HTTP Archive files 
+using library dpkt.
+https://github.com/andrewf/pcap2har
+
+* Libnet
+
+Libnet is a collection of routines to help with the construction and handling 
+of network packets. It provides a portable framework for low-level network 
+packet shaping, handling and injection. Libnet features portable packet creation 
+interfaces at the IP layer and link layer, as well as a host of supplementary 
+and complementary functionality. Using libnet, quick and simple packet assembly 
+applications can be whipped up with little effort.
+http://www.packetfactory.net/Projects/Libnet/
 
 * ECap
 
