@@ -8,7 +8,7 @@ Update: 2012-09-25
 
 Data Collection
 -----------------
-* libpcap/tcpdump
+* libpcap/tcpdump (R)
 
 the official site of tcpdump, a powerful command-line packet analyzer; and libpcap, 
 a portable C/C++ library for network traffic capture.
@@ -35,7 +35,7 @@ http://www.csl.sony.co.jp/person/kjc/kjc/software.html#ttt
 
 Data Analysis
 -------------
-* Wireshark suit
+* Wireshark suit (R)
 
 which includes a few practical tools to support most of the common usage. Here is a brief list of these tools:
 ** capinfos - Prints information about capture files
@@ -58,9 +58,9 @@ A wonderful collection of tools built on libtrace to process network traffic,
 which is from The University of Waikato. I love this project!
 http://research.wand.net.nz/
 
-* tcptrace
+* tcptrace (R)
 
-a tool written by Shawn Ostermann at Ohio University, for analysis of TCP dump files. 
+A tool written by Shawn Ostermann at Ohio University, for analysis of TCP dump files. 
 It can take as input the files produced by several popular packet-capture programs, 
 including tcpdump, snoop, etherpeek, HP Net Metrix, and WinDump. tcptrace can produce 
 several different types of output containing information on each connection seen, such 
@@ -69,15 +69,15 @@ times, window advertisements, throughput, and more. It can also produce a number
 graphs for further analysis.
 http://tcptrace.org/index.html
 
-* tcpsplit
+* tcpsplit (R)
 
-a tool to break a single libpcap packet trace into some number of sub-traces, breaking 
+A tool to break a single libpcap packet trace into some number of sub-traces, breaking 
 the trace along TCP connection boundaries so that a TCP connection doesn't end up split 
 across two sub-traces. This is useful for making large trace files tractable for in-
 depth analysis and for subsetting a trace for developing analysis on only part of a trace.
 http://www.icir.org/mallman/software/tcpsplit/
 
-* tcpflow
+* tcpflow (R)
 
 a program that captures data transmitted as part of TCP connections (flows), and stores 
 the data in a way that is convenient for protocol analysis or debugging. 
