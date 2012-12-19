@@ -18,18 +18,18 @@ http://www.tcpdump.org/
 
 Ngrep strives to provide most of GNU grep's common features, applying them to the network 
 layer. ngrep is a pcap-aware tool that will allow you to specify extended regular or 
-hexadecimal expressions to match against data payloads of packets. It currently recognizes
-TCP, UDP and ICMP across Ethernet, PPP, SLIP, FDDI, Token Ring and null interfaces, and
+hexadecimal expressions to match against data payloads of packets. 
+It currently recognizes TCP, UDP and ICMP across Ethernet, PPP, SLIP, FDDI, Token Ring and null interfaces, and
 understands bpf filter logic in the same fashion as more common packet sniffing tools, 
 such as tcpdump and snoop.
 http://www.packetfactory.net/Projects/ngrep
 
 * TTT: Tele Traffic Tapper
 
-TTT is yet another descendant of tcpdump but it is capable 
-of real-time, graphical, and remote traffic-monitoring. ttt won't replace tcpdump, 
-rather, it helps you find out what to look into with tcpdump. ttt monitors the 
-network and automatically picks up the main contributors of the traffic within the 
+TTT is yet another descendant of tcpdump but it is capable of real-time, 
+graphical, and remote traffic-monitoring. 
+ttt won't replace tcpdump, rather, it helps you find out what to look into with tcpdump. 
+ttt monitors the network and automatically picks up the main contributors of the traffic within the 
 time window. The graphs are updated every second by default.
 http://www.csl.sony.co.jp/person/kjc/kjc/software.html#ttt
 
@@ -38,18 +38,31 @@ Data Analysis
 * Wireshark suit (R)
 
 which includes a few practical tools to support most of the common usage. Here is a brief list of these tools:
+
 ** capinfos - Prints information about capture files
+
 ** dftest - Shows display filter byte-code, for debugging dfilter routines.
+
 ** dumpcap - Dump network traffic
+
 ** editcap - Edit and/or translate the format of capture files
+
 ** idl2wrs - CORBA IDL to Wireshark Plugin Generator
+
 ** mergecap - Merges two or more capture files into one
+
 ** randpkt - Random Packet Generator
+
 ** rawshark - Dump and analyze raw libpcap data
+
 ** text2pcap - Generate a capture file from an ASCII hexdump of packets
+
 ** tshark - Dump and analyze network traffic
+
 ** wireshark-filter - Wireshark filter syntax and reference
+
 ** wireshark - Interactively dump and analyze network traffic
+
 http://www.wireshark.org/
 
 * WAND
@@ -62,8 +75,8 @@ http://research.wand.net.nz/
 
 A tool written by Shawn Ostermann at Ohio University, for analysis of TCP dump files. 
 It can take as input the files produced by several popular packet-capture programs, 
-including tcpdump, snoop, etherpeek, HP Net Metrix, and WinDump. tcptrace can produce 
-several different types of output containing information on each connection seen, such 
+including tcpdump, snoop, etherpeek, HP Net Metrix, and WinDump. 
+tcptrace can produce several different types of output containing information on each connection seen, such 
 as elapsed time, bytes and segments sent and recieved, retransmissions, round trip 
 times, window advertisements, throughput, and more. It can also produce a number of 
 graphs for further analysis.
@@ -79,7 +92,8 @@ http://tstat.tlc.polito.it/
 
 A tool to break a single libpcap packet trace into some number of sub-traces, breaking 
 the trace along TCP connection boundaries so that a TCP connection doesn't end up split 
-across two sub-traces. This is useful for making large trace files tractable for in-
+across two sub-traces. 
+This is useful for making large trace files tractable for in-
 depth analysis and for subsetting a trace for developing analysis on only part of a trace.
 http://www.icir.org/mallman/software/tcpsplit/
 
