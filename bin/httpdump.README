@@ -1,0 +1,10 @@
+This program aims to dump the packets carrying HTTP traffic for later analysis.
+
+The standard HTTP (80), HTTPs (443) and HTTP proxy (3128) ports are filtered out. 
+
+The unencripted HTTP header and TCP header are saved as pcap format in the output file. If the HTTP header is not detected, only TCP header is 
+and saved in the output file.
+
+Xiaming Chen
+2012-11
+chenxm35@gmail.com

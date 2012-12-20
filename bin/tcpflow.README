@@ -1,0 +1,104 @@
+Usage example:
+
+./tcpflow -r input -f 7 -c
+
+
+=== TCPFLOW
+
+by Jeremy Elson <jelson@circlemud.org>
+
+For the latest information on tcpflow, please see:
+http://www.circlemud.org/~jelson/software/tcpflow/
+
+Or, subscribe to the tcpflow mailing lists; see
+http://sourceforge.net/mail/?group_id=8327
+
+
+== What is tcpflow?
+
+tcpflow is a program that captures data transmitted as part of TCP
+connections (flows), and stores the data in a way that is convenient
+for protocol analysis or debugging.  A program like 'tcpdump' shows a
+summary of packets seen on the wire, but usually doesn't store the
+data that's actually being transmitted.  In contrast, tcpflow
+reconstructs the actual data streams and stores each flow in a
+separate file for later analysis.
+
+tcpflow understands sequence numbers and will correctly reconstruct
+data streams regardless of retransmissions or out-of-order delivery.
+However, it currently does not understand IP fragments; flows
+containing IP fragments will not be recorded properly.
+
+tcpflow is based on the LBL Packet Capture Library (available at
+ftp://ftp.ee.lbl.gov/libpcap.tar.Z) and therefore supports the same
+rich filtering expressions that programs like 'tcpdump' support.
+It should compile under most popular versions of UNIX; see the INSTALL
+file for details.
+
+
+tcpflow stores all captured data in files that have names of the form
+
+            128.129.130.131.02345-010.011.012.013.45103
+
+where the contents of the above file would be data transmitted from
+host 128.129.131.131 port 2345, to host 10.11.12.13 port 45103.
+
+
+
+== What use is it?
+
+I originally wrote this program to capture the data being sent by
+various programs that use undocumented network protocols in an attempt
+to reverse engineer those protocols.  RealPlayer (and most other
+streaming media players), ICQ, and AOL IM are good examples of this
+type of application.
+
+In tinkering with it, I later also found tcpflow to be useful for
+checking to see what cookies my browser was sending to various sites,
+looking at the MIME headers of HTTP requests people are sending to my
+web server, and verifying that various connections to my machine that
+were supposed to be encrypted actually *were* encrypted.
+
+
+== Security Implications
+
+Although I wrote tcpflow to help the Forces of Good, in the wrong
+hands it can certainly be used for the Forces of Evil.  In the wrong
+hands this program can be used to do things like read incoming and
+outgoing mail, and sniff passwords.  I have chosen to release it
+anyway, because crackers already have tools specifically optimized for
+doing "evil" network sniffing easily, and this program will most
+likely not make their lives any easier.
+
+Theoretically, the Good Guys might be able to use programs like this
+to monitor their networks for evidence of attacks.  Such Good Guys are
+directed to software such as Vern Paxson's Bro
+<ftp://ftp.ee.lbl.gov/papers/bro-usenix98-revised.ps.Z>, which is
+specifically designed to do network-based intrusion detection.  Also,
+you should be aware that there are certain problems that make network
+intrusion detectors inherently unreliable in the face of a
+sufficiently advanced attacker; for more information, see
+http://www.secnet.com/papers/ids-html/  or
+http://www.circlemud.org/~jelson/writings/security/ .
+
+
+== Bugs
+
+Please send bug reports to jelson@circlemud.org.
+
+tcpflow currently does not understand IP fragments.  Flows containing
+IP fragments will not be recorded correctly.
+
+tcpflow never frees state associated with flows that it records, so
+will grow large if used to capture a very large number of flows (e.g.,
+on the order of 100,000 flows or more).
+
+There appears to be a bug in the way that Linux delivers packets to
+libpcap when using the loopback interface ("localhost").  When
+listening to the Linux loopback interface, selective packet filtering
+is not possible; all TCP flows on the localhost interface will be
+recorded.
+
+
+Jeremy Elson
+jelson@circlemud.org

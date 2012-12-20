@@ -1,0 +1,121 @@
+Tcpstat v1.5
+------------
+
+LICENSE
+-------
+This software can be freely distributed under the terms of the "BSD
+License."  See the "LICENSE" file distributed with this software for
+more information.
+
+
+INTRODUCTION
+------------
+tcpstat reports certain network interface statistics much like vmstat(8)
+does for system statistics. tcpstat gets its information by either
+monitoring a specific interface, or by reading previously saved tcpdump(1)
+data from a file.
+
+Because this program has a lot more to with network info than just TCP
+stuff, the "tcp" in tcpstat should really be "net", but someone already
+got dibbs on the name "netstat" a long, long time ago.  Rats!  :)
+
+
+TESTED PLATFORMS
+----------------
+ -- BSD
+   * FreeBSD 3.x, 4.x, 5.0
+   * NetBSD 1.5
+   * OpenBSD 2.7
+   * BSD/OS 3.0, 4.0
+   * Mac OS X 10.1
+ -- Compaq/Digital
+   * Tru64 Unix 4.0 (*)
+   * Tru64 Unix 5.1 (*)
+ -- HP
+   * HPUX 11.0
+ -- IBM
+   * AIX 4.3
+ -- Linux
+   * Debian 2.2
+   * Mandrake 7.2, 8.0
+   * RedHat 6.0, 6.2, 7.0, 7.2
+   * Slackware 7.0, 8.0
+   * SuSE 6.4, 7.0
+   * TurboLinux IA64 000828 (*)
+ -- Sun
+   * Solaris 2.5, 2.6, 7, 8
+
+If your OS is not listed, email me <pherman@frenchfries.net> and tell me
+how it went.  I'd like to port this to as many unix platforms as possible.
+
+(*) Thanks to Compaq's testdrive program.
+
+INSTALLATION
+------------
+If you have compiled and installed any software from source before, you
+should know the routine by now:
+
+	1) Unpack the archive
+	2) cd tcpstat-1.5	(or whatever the directory name is)
+	3) ./configure
+	4) make
+	5) make install		(as root, if necessary)
+
+tcpstat *does* require the pcap library, so you make have to set the
+library and include paths with "configure" manually.
+See "./configure --help"
+
+
+USAGE
+-----
+Tcpstat needs input, be it "live" from a network interface, or from a
+"tcpdump" file written at some previous time.  The command line options
+determine where tcpstat gets it's info.  The man page is the best place to
+see how to use it.  Some examples (from the man page):
+
+ tcpstat -i fxp0
+
+Displays the default statistics every 5 seconds of all traffic currently
+passing through the fxp0 network interface.
+
+ tcpstat -r file.dump
+
+Displays the default statistics every 5 seconds from the tcpdump(1)
+generated file "file.dump".
+
+ tcpstat -f 'port (smtp or http)' -o '%S %b\n' -r file.dump 2.3
+
+Displays every 2.3 seconds the timestamp together with smtp and http
+traffic throughput of the data from "file.dump", in a format which would
+be suitable for gnuplot(1).
+
+ tcpstat -b 28800 -r file.dump 0.5
+
+Displays what percentage of the traffic in file.dump exceeded the speed of
+my modem (28800 bits per second.)
+
+
+NOTES
+-----
+There is the option which allows the user to write to any (and/or
+multiple) arbitrary file descriptor(s).  This is a very nice feature, and
+lets tcpstat write separate statistics into different files or pipes, for
+example.  This is in and of itself not a security risk, because the user
+can do this trivially with any shell.  However, if you choose to install
+the program setuid, then the user will be able to write on open file
+descriptors (for example the open /dev/bpf device) that the user in some
+cases may not normally have access to.
+
+Installing the program setuid is strongly discouraged, but if it is a must
+in your environment, you can disable this feature using the configure
+feature:
+   ./configure --disable-fdesc
+
+
+AUTHOR
+------
+Paul Herman <pherman@frenchfries.net>
+Cologne, Germany.
+
+Please send all bug reports to this address.  Thanks for trying this out,
+and I hope it helps.  It did for me.
