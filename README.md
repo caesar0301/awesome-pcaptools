@@ -6,8 +6,19 @@ chenxm, SJTU, China
 
 Update: 2012-09-25
 
+Updated
+==========
+
+2012-12-26
+
+I have found a similar collection in web version here: 
+http://www.stearns.org/doc/pcap-apps.html
+
+Categories
+===========
+
 Data Collection
------------------
+---------------
 * libpcap/tcpdump (R)
 
 The official site of tcpdump, a powerful command-line packet analyzer; and libpcap, 
