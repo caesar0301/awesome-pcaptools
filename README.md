@@ -379,6 +379,13 @@ under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
 BY-NC-SA 3.0) License.
 http://www.xplico.org/about
 
+* Justniffer
+
+Justniffer is a network protocol analyzer that captures network traffic and 
+produces logs in a customized way, can emulate Apache web server log files, 
+track response times and extract all "intercepted" files from the HTTP traffic.
+http://justniffer.sourceforge.net/
+
 * NetworkMiner
 
 NetworkMiner is a Network Forensic Analysis Tool (NFAT) for Windows (but also 
