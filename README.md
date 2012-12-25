@@ -1,6 +1,7 @@
 About
 ==========
-This project dose not contain any source code or files. I just want to make a list of tools to process pcap files in research of network traffic.
+This project dose not contain any source code or files. 
+I just want to make a list of tools to process pcap files in research of network traffic.
 
 chenxm, SJTU, China
 
@@ -13,6 +14,11 @@ Updated
 
 I have found a similar collection in web version here: 
 http://www.stearns.org/doc/pcap-apps.html
+
+2012-12-15
+
+Some common tools handly selected by me are added to this proj. All these
+tools are provivded to meet some daily reqirements.
 
 Categories
 ===========
