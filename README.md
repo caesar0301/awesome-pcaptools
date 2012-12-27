@@ -381,6 +381,20 @@ reducing all TCP packets, so the host renumbering performed by each will be
 independent.
 http://ita.ee.lbl.gov/html/contrib/sanitize.html
 
+* ipsumdump (posted by adulau 2012-12-25)
+
+The ipsumdump program summarizes TCP/IP dump files into a self-describing 
+ASCII format easily readable by humans and programs.
+Ipsumdump can read packets from network interfaces, from tcpdump files, and 
+from existing ipsumdump files. It will transparently uncompress tcpdump or 
+ipsumdump files when necessary. It can randomly sample traffic, filter traffic 
+based on its contents, anonymize IP addresses, and sort packets from multiple 
+dumps by timestamp. Also, it can optionally create a tcpdump file containing 
+actual packet data.
+It's also convinient to work with CLICK as a inserted module. For more info,
+please read: 
+http://www.read.seas.harvard.edu/~kohler/ipsumdump/
+
 File Extraction
 ---------------
 * xplico
