@@ -54,33 +54,11 @@ Data Analysis
 -------------
 * Wireshark suit (R)
 
-which includes a few practical tools to support most of the common usage. Here is a brief list of these tools:
+The well-konwn tool suit to support packet analyzer and protocol decoder. (http://www.wireshark.org/)
+It also includes a few practical tools and scripts to support most of the common usage. 
+Here is a brief list of these tools (http://wiki.wireshark.org/Tools)
 
-** capinfos - Prints information about capture files
 
-** dftest - Shows display filter byte-code, for debugging dfilter routines.
-
-** dumpcap - Dump network traffic
-
-** editcap - Edit and/or translate the format of capture files
-
-** idl2wrs - CORBA IDL to Wireshark Plugin Generator
-
-** mergecap - Merges two or more capture files into one
-
-** randpkt - Random Packet Generator
-
-** rawshark - Dump and analyze raw libpcap data
-
-** text2pcap - Generate a capture file from an ASCII hexdump of packets
-
-** tshark - Dump and analyze network traffic
-
-** wireshark-filter - Wireshark filter syntax and reference
-
-** wireshark - Interactively dump and analyze network traffic
-
-http://www.wireshark.org/
 
 * WAND
 
