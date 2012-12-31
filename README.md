@@ -15,10 +15,6 @@ Updated
 I have found a similar collection in web version here: 
 http://www.stearns.org/doc/pcap-apps.html
 
-2012-12-15
-
-Some common tools handly selected by me are added to this proj. All these
-tools are provivded to meet some daily reqirements.
 
 Categories
 ===========

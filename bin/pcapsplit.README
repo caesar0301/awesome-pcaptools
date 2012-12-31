@@ -1,3 +1,0 @@
-pcapsplit.sh: dependent on tcpdump
-A wrapper of tcpdump to split a large trace into multiple small subtraces,
-supporting to processe a single pcap file and all files under a folder.
