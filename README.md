@@ -10,9 +10,6 @@ Update 2012-12-26: A similar collection of web version: http://www.stearns.org/d
 
 
 
-
-
-
 1. Data Collection
 ---------------
 
