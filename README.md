@@ -4,28 +4,11 @@ About
 This project dose not contain any source code or files. 
 I just want to make a list of tools to process pcap files in research of network traffic.
 
-chenxm, SJTU, China
+For more information, see Wiki page: https://github.com/caesar0301/pcaptools/wiki
 
-Update: 2012-09-25
+Update 2013-01-01: Another similar list from Wireshark: http://wiki.wireshark.org/Tools
 
-Updated
-------------
-
-2013-01-01
-
-Another related tools to Wireshark:
-http://wiki.wireshark.org/Tools
-
-2012-12-26
-
-I have found a similar collection in web version here: 
-http://www.stearns.org/doc/pcap-apps.html
-
-
-Collection of PCAP tools
--------------
-
-Wiki[[https://github.com/caesar0301/pcaptools/wiki]]
+Update 2012-12-26: A similar collection of web version: http://www.stearns.org/doc/pcap-apps.html
 
 
 
