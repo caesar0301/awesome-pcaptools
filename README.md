@@ -17,7 +17,7 @@ Update 2012-12-26: A similar collection of web version: http://www.stearns.org/d
 
   The official site of tcpdump, a powerful command-line packet analyzer; and libpcap, 
 a portable C/C++ library for network traffic capture.
-  http://www.tcpdump.org/
+(http://www.tcpdump.org/)
 
 * Ngrep
 
@@ -27,7 +27,7 @@ hexadecimal expressions to match against data payloads of packets.
 It currently recognizes TCP, UDP and ICMP across Ethernet, PPP, SLIP, FDDI, Token Ring and 
 null interfaces, and understands bpf filter logic in the same fashion as more common packet 
 sniffing tools, such as tcpdump and snoop.
-http://www.packetfactory.net/Projects/ngrep
+(http://www.packetfactory.net/Projects/ngrep)
 
 * TTT: Tele Traffic Tapper
 
@@ -36,7 +36,20 @@ graphical, and remote traffic-monitoring.
 ttt won't replace tcpdump, rather, it helps you find out what to look into with tcpdump. 
 ttt monitors the network and automatically picks up the main contributors of the traffic within the 
 time window. The graphs are updated every second by default.
-http://www.csl.sony.co.jp/person/kjc/kjc/software.html#ttt
+(http://www.csl.sony.co.jp/person/kjc/kjc/software.html#ttt)
+
+* n2disk
+
+  A multi-Gigabit network traffic recorder with indexing capabilities.
+n2disk is a network traffic recorder application. With n2disk you can capture 
+full-sized network packets at multi-Gigabit rate (above 10 Gigabit/s on adequate hardware) 
+from a live network interface, and write them into files without any packet loss. 
+n2disk has been designed to write files into disks for very long periods, 
+you have to specify a maximum number of distinct file that may be written during 
+the execution, and if n2disk reaches the maximum number of files, 
+it will start recycling the files from the oldest one. 
+This way you can have a complete view of the traffic for a fixed temporal window ... 
+(http://www.ntop.org/products/n2disk/)
 
 2. Data Analysis
 -------------
