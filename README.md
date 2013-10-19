@@ -10,7 +10,7 @@ Update 2012-12-26: A similar collection of web version: http://www.stearns.org/d
 
 
 
-1. Data Collection
+1. Traffic Capture
 ---------------
 
 * libpcap/tcpdump (R)
@@ -38,7 +38,7 @@ ttt monitors the network and automatically picks up the main contributors of the
 time window. The graphs are updated every second by default.
 (http://www.csl.sony.co.jp/person/kjc/kjc/software.html#ttt)
 
-* n2disk
+* n2disk (Commercial)
 
   A multi-Gigabit network traffic recorder with indexing capabilities.
 n2disk is a network traffic recorder application. With n2disk you can capture 
@@ -51,7 +51,17 @@ it will start recycling the files from the oldest one.
 This way you can have a complete view of the traffic for a fixed temporal window ... 
 (http://www.ntop.org/products/n2disk/)
 
-2. Data Analysis
+* PF_RING
+
+  PF_RING is a new type of network socket that dramatically improves the packet capture speed, 
+and that’s characterized by the following properties:
+Available for Linux kernels 2.6.32 and newer.
+No need to patch the kernel: just load the kernel module.
+PF_RING-aware drivers for increased packet capture acceleration. ... 
+(http://www.ntop.org/products/pf_ring/)
+
+
+2. Traffic Analysis/Inspection
 -------------
 
 * Wireshark suit (R)
@@ -381,6 +391,17 @@ actual packet data.
 It's also convinient to work with CLICK as a inserted module. For more info,
 please read: 
 http://www.read.seas.harvard.edu/~kohler/ipsumdump/
+
+
+* ntopng
+
+  ntopng is the next generation version of the original ntop, a network traffic 
+  probe that shows the network usage, similar to what the popular top Unix command does. 
+  ntop is based on libpcap and it has been written in a portable way in order to virtually 
+  run on every Unix platform, MacOSX and on Win32 as well.
+  (http://www.ntop.org/products/ntop/)
+
+
 
 3. File Extraction
 ---------------
