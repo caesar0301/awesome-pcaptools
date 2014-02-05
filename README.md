@@ -306,8 +306,21 @@ http://www.vanheusden.com/multitail
 
 * netsniff-ng
 
-  netsniff-ng is a free, performant Linux network analyzer and networking toolkit. 
-http://netsniff-ng.org/
+  netsniff-ng is a free Linux networking toolkit, a Swiss army knife for your daily Linux network plumbing if you will. 
+http://netsniff-ng.org/ or on GitHub www.github.com/borkmann/netsniff-ng
+
+ The netsniff-ng toolkit consists of the following utilities:
+
+    netsniff-ng, a fast zero-copy analyzer, pcap capturing and replaying tool
+    trafgen, a multithreaded low-level zero-copy network packet generator
+    mausezahn, high-level packet generator for HW/SW appliances with Cisco-CLI*
+    bpfc, a Berkeley Packet Filter compiler, Linux BPF JIT disassembler
+    ifpps, a top-like kernel networking statistics tool
+    flowtop, a top-like netfilter connection tracking tool
+    curvetun, a lightweight curve25519-based IP tunnel
+    astraceroute, an autonomous system (AS) trace route utility
+note: John Schipp took a workshop on network traffic analysis in HackerCon, link http://www.youtube.com/watch?v=4WMpy3JDL3k
+
 
 * NetDude
 
