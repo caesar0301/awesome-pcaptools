@@ -1,17 +1,96 @@
 About
 ------------
 
-This project dose not contain any source code or files. 
+This project dose not contain any source code or files.
 I just want to make a list of tools to process pcap files in research of network traffic.
 
-Update 2013-01-01: Another similar list from Wireshark: http://wiki.wireshark.org/Tools
-
+Update 2014-07-24: Traffic moniter tools under *nix.    
+Update 2013-01-01: Another similar list from Wireshark: http://wiki.wireshark.org/Tools    
 Update 2012-12-26: A similar collection of web version: http://www.stearns.org/doc/pcap-apps.html
 
 
+Fast evaluatoin with linux commands
+----------------------------------------
 
-1. Traffic Capture
----------------
+* Nload
+
+Nload is a commandline tool that allows users to monitor the incoming and outgoing traffic separately. It also draws out a graph to indicate the same, the scale of which can be adjusted. Easy and simple to use, and does not support many options.
+
+* iftop
+
+Iftop measures the data flowing through individual socket connections, and it works in a manner that is different from Nload. Iftop uses the pcap library to capture the packets moving in and out of the network adapter, and then sums up the size and count to find the total bandwidth under use.
+Although iftop reports the bandwidth used by individual connections, it cannot report the process name/id involved in the particular socket connection. But being based on the pcap library, iftop is able to filter the traffic and report bandwidth usage over selected host connections as specified by the filter. 
+
+* iptraf
+
+Iptraf is an interactive and colorful IP Lan monitor. It shows individual connections and the amount of data flowing between the hosts. 
+
+* nethogs
+
+Nethogs is a small 'net top' tool that shows the bandwidth used by individual processes and sorts the list putting the most intensive processes on top. In the event of a sudden bandwidth spike, quickly open nethogs and find the process responsible. Nethogs reports the PID, user and the path of the program.
+
+* bmon
+
+Bmon (Bandwidth Monitor) is a tool similar to nload that shows the traffic load over all the network interfaces on the system. The output also consists of a graph and a section with packet level details.
+
+* slurm
+
+Slurm is 'yet' another network load monitor that shows device statistics along with an ascii graph. It supports 3 different styles of graphs each of which can be activated using the c, s and l keys. Simple in features, slurm does not display any further details about the network load.
+
+
+* tcptrack
+
+Tcptrack is similar to iftop, and uses the pcap library to capture packets and calculate various statistics like the bandwidth used in each connection. It also supports the standard pcap filters that can be used to monitor specific connections.
+
+* Vnstat
+
+Vnstat is bit different from most of the other tools. It actually runs a background service/daemon and keeps recording the size of data transfer all the time. Next it can be used to generate a report of the history of network usage.
+
+* bwm-ng
+
+Bwm-ng (Bandwidth Monitor Next Generation) is another very simple real time network load monitor that reports a summary of the speed at which data is being transferred in and out of all available network interfaces on the system.
+
+* cbm (Color Bandwidth Meter)
+
+A tiny little simple bandwidth monitor that displays the traffic volume through network interfaces. No further options, just the traffic stats are display and updated in realtime.
+
+* speedometer
+
+Another small and simple tool that just draws out good looking graphs of incoming and outgoing traffic through a given interface.
+
+* Pktstat
+
+Pktstat displays all the active connections in real time, and the speed at which data is being transferred through them. It also displays the type of the connection, i.e. tcp or udp and also details about http requests if involved.
+
+* Netwatch
+
+Netwatch is part of the netdiag collection of tools, and it too displays the connections between local host and other remote hosts, and the speed at which data is transferring on each connection.
+
+* Trafshow
+
+Like netwatch and pktstat, trafshow reports the current active connections, their protocol and the data transfer speed on each connection. It can filter out connections using pcap type filters.
+
+* Netload
+
+The netload command just displays a small report on the current traffic load, and the total number of bytes transferred since the program start. No more features are there. Its part of the netdiag.
+
+* ifstat
+
+The ifstat reports the network bandwidth in a batch style mode. The output is in a format that is easy to log and parse using other programs or utilities.
+
+* dstat
+
+Dstat is a versatile tool (written in python) that can monitor different system statistics and report them in a batch style mode or log the data to a csv or similar file. This example shows how to use dstat to report network bandwidth
+
+* collectl
+
+Collectl reports system statistics in a style that is similar to dstat, and like dstat it is gathers statistics about various different system resources like cpu, memory, network etc. Over here is a simple example of how to use it to report network usage/bandwidth.
+
+
+
+
+Traffic Capture
+----------------------
 
 * libpcap/tcpdump (R)
 
@@ -61,7 +140,7 @@ PF_RING-aware drivers for increased packet capture acceleration. ...
 (http://www.ntop.org/products/pf_ring/)
 
 
-2. Traffic Analysis/Inspection
+Traffic Analysis/Inspection
 -------------
 
 * Wireshark suit (R)
@@ -417,8 +496,10 @@ http://www.read.seas.harvard.edu/~kohler/ipsumdump/
 
 
 
-3. File Extraction
----------------
+File Extraction
+----------------------
+
+
 * xplico
 
   The goal of Xplico is extract from an internet traffic capture the applications 
@@ -518,8 +599,8 @@ http://tcpick.sourceforge.net/
 
 
 
-4. Other Projects
--------------
+Other Projects
+-----------------------
 
 * FFT-FGN-C
 
