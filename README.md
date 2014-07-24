@@ -4,9 +4,9 @@ About
 This project dose not contain any source code or files.
 I just want to make a list of tools to process pcap files in research of network traffic.
 
-Update 2014-07-24: Traffic moniter tools under *nix.    
-Update 2013-01-01: Another similar list from Wireshark: http://wiki.wireshark.org/Tools    
-Update 2012-12-26: A similar collection of web version: http://www.stearns.org/doc/pcap-apps.html
+Update 2014-07-24: Traffic moniter tools under *nix (Ref: http://bit.do/J8qM)     
+Update 2013-01-01: Another similar list from Wireshark (Ref: http://wiki.wireshark.org/Tools)      
+Update 2012-12-26: A similar collection of web version: (Ref: http://bit.do/J8q4)   
 
 
 Fast evaluatoin with linux commands
@@ -14,77 +14,110 @@ Fast evaluatoin with linux commands
 
 * Nload
 
-Nload is a commandline tool that allows users to monitor the incoming and outgoing traffic separately. It also draws out a graph to indicate the same, the scale of which can be adjusted. Easy and simple to use, and does not support many options.
+    Nload is a commandline tool that allows users to monitor the incoming and outgoing traffic separately. It also draws outa graph to indicate the same, the scale of which can be adjusted. Easy and simple to use, and does not support many options.     
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/nload.png)
 
 * iftop
 
-Iftop measures the data flowing through individual socket connections, and it works in a manner that is different from Nload. Iftop uses the pcap library to capture the packets moving in and out of the network adapter, and then sums up the size and count to find the total bandwidth under use.
-Although iftop reports the bandwidth used by individual connections, it cannot report the process name/id involved in the particular socket connection. But being based on the pcap library, iftop is able to filter the traffic and report bandwidth usage over selected host connections as specified by the filter. 
+    Iftop measures the data flowing through individual socket connections, and it works in a manner that is different from Nload. Iftop uses the pcap library to capture the packets moving in and out of the network adapter, and then sums up the size and count to find the total bandwidth under use.
+Although iftop reports the bandwidth used by individual connections, it cannot report the process name/id involved in the particular socket connection. But being based on the pcap library, iftop is able to filter the traffic and report bandwidth usage over selected host connections as specified by the filter.  
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/iftop.png)
 
 * iptraf
 
-Iptraf is an interactive and colorful IP Lan monitor. It shows individual connections and the amount of data flowing between the hosts. 
+    Iptraf is an interactive and colorful IP Lan monitor. It shows individual connections and the amount of data flowing between the hosts.  
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/iptraf.png)
+
 
 * nethogs
 
-Nethogs is a small 'net top' tool that shows the bandwidth used by individual processes and sorts the list putting the most intensive processes on top. In the event of a sudden bandwidth spike, quickly open nethogs and find the process responsible. Nethogs reports the PID, user and the path of the program.
+    Nethogs is a small 'net top' tool that shows the bandwidth used by individual processes and sorts the list putting the most intensive processes on top. In the event of a sudden bandwidth spike, quickly open nethogs and find the process responsible. Nethogs reports the PID, user and the path of the program. 
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/nethogs.png)
+
 
 * bmon
 
-Bmon (Bandwidth Monitor) is a tool similar to nload that shows the traffic load over all the network interfaces on the system. The output also consists of a graph and a section with packet level details.
+    Bmon (Bandwidth Monitor) is a tool similar to nload that shows the traffic load over all the network interfaces on the system. The output also consists of a graph and a section with packet level details.  
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/bmon-640x480.png)  
+
 
 * slurm
 
-Slurm is 'yet' another network load monitor that shows device statistics along with an ascii graph. It supports 3 different styles of graphs each of which can be activated using the c, s and l keys. Simple in features, slurm does not display any further details about the network load.
+    Slurm is 'yet' another network load monitor that shows device statistics along with an ascii graph. It supports 3 different styles of graphs each of which can be activated using the c, s and l keys. Simple in features, slurm does not display any further details about the network load.
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/slurm.png)
+
 
 
 * tcptrack
 
-Tcptrack is similar to iftop, and uses the pcap library to capture packets and calculate various statistics like the bandwidth used in each connection. It also supports the standard pcap filters that can be used to monitor specific connections.
+    Tcptrack is similar to iftop, and uses the pcap library to capture packets and calculate various statistics like the bandwidth used in each connection. It also supports the standard pcap filters that can be used to monitor specific connections.
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/tcptrack.png)
+
 
 * Vnstat
 
-Vnstat is bit different from most of the other tools. It actually runs a background service/daemon and keeps recording the size of data transfer all the time. Next it can be used to generate a report of the history of network usage.
+    Vnstat is bit different from most of the other tools. It actually runs a background service/daemon and keeps recording the size of data transfer all the time. Next it can be used to generate a report of the history of network usage.
+![Screenshot]()
+
 
 * bwm-ng
 
-Bwm-ng (Bandwidth Monitor Next Generation) is another very simple real time network load monitor that reports a summary of the speed at which data is being transferred in and out of all available network interfaces on the system.
+    Bwm-ng (Bandwidth Monitor Next Generation) is another very simple real time network load monitor that reports a summary of the speed at which data is being transferred in and out of all available network interfaces on the system.
+![Screenshot]()
+
 
 * cbm (Color Bandwidth Meter)
 
-A tiny little simple bandwidth monitor that displays the traffic volume through network interfaces. No further options, just the traffic stats are display and updated in realtime.
+    A tiny little simple bandwidth monitor that displays the traffic volume through network interfaces. No further options, just the traffic stats are display and updated in realtime.
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/cbm.png)
+
 
 * speedometer
 
-Another small and simple tool that just draws out good looking graphs of incoming and outgoing traffic through a given interface.
+    Another small and simple tool that just draws out good looking graphs of incoming and outgoing traffic through a given interface.
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/speedometer.png)
+
 
 * Pktstat
 
-Pktstat displays all the active connections in real time, and the speed at which data is being transferred through them. It also displays the type of the connection, i.e. tcp or udp and also details about http requests if involved.
+    Pktstat displays all the active connections in real time, and the speed at which data is being transferred through them. It also displays the type of the connection, i.e. tcp or udp and also details about http requests if involved.
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/pktstat.png)
+
 
 * Netwatch
 
-Netwatch is part of the netdiag collection of tools, and it too displays the connections between local host and other remote hosts, and the speed at which data is transferring on each connection.
+    Netwatch is part of the netdiag collection of tools, and it too displays the connections between local host and other remote hosts, and the speed at which data is transferring on each connection.
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/netwatch.png)
+
 
 * Trafshow
 
-Like netwatch and pktstat, trafshow reports the current active connections, their protocol and the data transfer speed on each connection. It can filter out connections using pcap type filters.
+    Like netwatch and pktstat, trafshow reports the current active connections, their protocol and the data transfer speed on each connection. It can filter out connections using pcap type filters.
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/trafshow.png)
+
 
 * Netload
 
-The netload command just displays a small report on the current traffic load, and the total number of bytes transferred since the program start. No more features are there. Its part of the netdiag.
+    The netload command just displays a small report on the current traffic load, and the total number of bytes transferred since the program start. No more features are there. Its part of the netdiag.
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/netload.png)
+
 
 * ifstat
 
-The ifstat reports the network bandwidth in a batch style mode. The output is in a format that is easy to log and parse using other programs or utilities.
+     The ifstat reports the network bandwidth in a batch style mode. The output is in a format that is easy to log and parse using other programs or utilities.
+![Screenshot]()
+
 
 * dstat
 
-Dstat is a versatile tool (written in python) that can monitor different system statistics and report them in a batch style mode or log the data to a csv or similar file. This example shows how to use dstat to report network bandwidth
+     Dstat is a versatile tool (written in python) that can monitor different system statistics and report them in a batch style mode or log the data to a csv or similar file. This example shows how to use dstat to report network bandwidth
+![Screenshot]()
+
 
 * collectl
 
-Collectl reports system statistics in a style that is similar to dstat, and like dstat it is gathers statistics about various different system resources like cpu, memory, network etc. Over here is a simple example of how to use it to report network usage/bandwidth.
+     Collectl reports system statistics in a style that is similar to dstat, and like dstat it is gathers statistics about various different system resources like cpu, memory, network etc. Over here is a simple example of how to use it to report network usage/bandwidth.
+![Screenshot]()
 
 
 
