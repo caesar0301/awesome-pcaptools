@@ -9,7 +9,7 @@ Update 2013-01-01: Another similar list from Wireshark (Ref: http://wiki.wiresha
 Update 2012-12-26: A similar collection of web version: (Ref: http://bit.do/J8q4)   
 
 
-Fast evaluatoin with linux commands
+Fast evaluation with linux commands
 ----------------------------------------
 
 * Nload
