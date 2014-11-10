@@ -6,7 +6,9 @@ I just want to make a list of tools to process pcap files in research of network
 
 Update 2014-07-24: Traffic moniter tools under *nix (Ref: http://bit.do/J8qM)     
 Update 2013-01-01: Another similar list from Wireshark (Ref: http://wiki.wireshark.org/Tools)      
-Update 2012-12-26: A similar collection of web version: (Ref: http://bit.do/J8q4)   
+Update 2012-12-26: A similar collection of web version: (Ref: http://bit.do/J8q4)    
+
+For more awesome lists, see https://github.com/sindresorhus/awesome
 
 
 Fast evaluation with linux commands
