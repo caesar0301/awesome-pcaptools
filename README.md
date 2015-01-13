@@ -175,6 +175,18 @@ No need to patch the kernel: just load the kernel module.
 PF_RING-aware drivers for increased packet capture acceleration. ... 
 (http://www.ntop.org/products/pf_ring/)
 
+* jNetPcap
+
+  jNetPcap is a packet capturing library for Java that is available for Linux and Windows.
+jNetPcap leverages libpcap respectively WinPcap and employs the Java Native Interface (JNI) for using the functionality provided by libpcap/WinPcap.
+(http://jnetpcap.com)
+
+* clj-net-pcap
+
+  clj-net-pcap is a packet capturing library for Clojure.
+clj-net-pcap uses jNetPcap and adds convenience functionality around jNetPcap for easing the usability.
+A paper about clj-net-pcap was published in scope of COMPSACW 2014: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6903107
+(https://github.com/ruedigergad/clj-net-pcap)
 
 Traffic Analysis/Inspection<a name="analysis"></a>
 --------------------------------------------------
