@@ -36,6 +36,10 @@ usage over selected host connections as specified by the filter.
 [Screenshot](http://www.binarytides.com/blog/wp-
 content/uploads/2014/03/iftop.png)
 
+* Jnettop
+
+    [Jnettop](http://jnettop.kubs.info/wiki/) is a traffic visualiser, which captures traffic going through the host it is running from and displays streams sorted by bandwidth they use. [Screenshot](http://jnettop.kubs.info/wiki/?binary=internal%3A%2F%2F76195466cc3bca92f8de7b404e240844.gif)
+
 * Iptraf
 
     Iptraf is an interactive and colorful IP Lan monitor. It shows individual
