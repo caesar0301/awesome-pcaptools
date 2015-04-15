@@ -414,10 +414,10 @@ live from the network. http://etherape.sourceforge.net/
 * Snort
 
     Snort is an open source network intrusion prevention and detection system
-(IDS/IPS) developed by Sourcefire. Combining the benefits of signature,
+(IDS/IPS) developed by Sourcefire, now owned by Cisco. Combining the benefits of signature,
 protocol and anomaly- based inspection, Snort is the most widely deployed
 IDS/IPS technology worldwide. With millions of downloads and approximately
-300,000 registered users, Snort has become the de facto standard for IPS.
+500,000 registered users, Snort has become the de facto standard for IPS.
 http://www.snort.org/
 
 * Scapy
@@ -657,6 +657,16 @@ too, helpful to read and understand better the output of the program. Actually
 it can handle several interfaces, including ethernet cards and ppp. It is
 useful to keep track of what users of a network are doing, and is usable with
 textmode tools like grep, sed, awk. http://tcpick.sourceforge.net/
+
+* Snort
+
+    Snort is an open source network intrusion prevention and detection system
+(IDS/IPS) developed by Sourcefire, now owned by Cisco. Combining the benefits of signature,
+protocol and anomaly- based inspection, Snort is the most widely deployed
+IDS/IPS technology worldwide. With millions of downloads and approximately
+500,000 registered users, Snort has become the de facto standard for IPS.
+http://www.snort.org/  Snort has the capability to write files to disk as they are captured
+live, or from a pcap.
 
 Other Projects<a name="others"></a>
 -------------------------------------------
