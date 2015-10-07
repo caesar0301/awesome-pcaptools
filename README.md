@@ -652,7 +652,7 @@ reorder tcp streams. Tcpick is able to save the captured flows in different
 files or displays them in the terminal, and so it is useful to sniff files that
 are transmitted via ftp or http. It can display all the stream on the terminal,
 when the connection is closed in different display modes like hexdump, hexdump
-+ ascii, only printable charachters, raw mode and so on. Available a color mode
++ ascii, only printable characters, raw mode and so on. Available a color mode
 too, helpful to read and understand better the output of the program. Actually
 it can handle several interfaces, including ethernet cards and ppp. It is
 useful to keep track of what users of a network are doing, and is usable with
