@@ -562,6 +562,15 @@ http://www.read.seas.harvard.edu/~kohler/ipsumdump/
   Unix command does. ntop is based on libpcap and it has been written in a
   portable way in order to virtually run on every Unix platform, MacOSX and on
   Win32 as well. (http://www.ntop.org/products/ntop/)
+  
+  
+* pyshark
+
+	A Python wrapper for tshark, allowing python packet parsing using wireshark dissectors.
+	There are quite a few python packet parsing modules, this one is different because it 
+	doesn't actually parse any packets, it simply uses tshark's (wireshark command-line utility) 
+	ability to export XMLs to use its parsing. 
+	More info on: http://kiminewt.github.io/pyshark/
 
 File Extraction<a name="fileextraction"></a>
 ----------------------------------------
