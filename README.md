@@ -714,6 +714,17 @@ http://www.cs.berkeley.edu/~abegel/sigcomm99/bpf+.ps
     A paper presented at SIGCOMM '96 on an enhanced version of BPF.
 http://www.pdos.lcs.mit.edu/~engler/dpf.html
 
+
+* Haka
+	
+	An open source security oriented language which allows to describe protocols 
+and apply security policies on (live) captured traffic. The scope of Haka language 
+is twofold. First of all, it allows to write security rules in order to filter/alter/drop 
+unwanted packets and log and report malicious activities. Second, Haka features a 
+grammar enabling to specify network protocols and their underlying state machine.
+More info on: http://www.haka-security.org/
+
+
 History
 -----------
 
