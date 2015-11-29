@@ -714,6 +714,14 @@ http://www.cs.berkeley.edu/~abegel/sigcomm99/bpf+.ps
     A paper presented at SIGCOMM '96 on an enhanced version of BPF.
 http://www.pdos.lcs.mit.edu/~engler/dpf.html
 
+
+* RIPE-NCC Hadoop for PCAP
+
+	A Hadoop library to read packet capture (PCAP) files. Bundles the code used 
+to read PCAPs. Can be used within MapReduce jobs to natively read PCAP files.
+Also features a Hive Serializer/Deserializer (SerDe) to query PCAPs using SQL 
+like commands. More information on: https://github.com/RIPE-NCC/hadoop-pcap.
+
 History
 -----------
 
