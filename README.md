@@ -225,6 +225,15 @@ usability. A paper about clj-net-pcap was published in scope of COMPSACW 2014:
 http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6903107
 (https://github.com/ruedigergad/clj-net-pcap)
 
+
+* OpenFPC
+
+	OpenFPC is a set of scripts that combine to provide a lightweight full-packet 
+network traffic recorder & buffering tool. Its design goal is to allow non-expert 
+users to deploy a distributed network traffic recorder on COTS hardware while 
+integrating into existing alert and log tools. More info on: http://www.openfpc.org/.
+
+
 Traffic Analysis/Inspection<a name="analysis"></a>
 --------------------------------------------------
 
