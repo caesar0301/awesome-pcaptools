@@ -584,6 +584,11 @@ of the number of queries per query type. https://doc.powerdns.com/md/manpages/dn
 input PCAP files and generates statistics on 5 second segments allowing the study of 
 intermittent resolver issues. https://doc.powerdns.com/md/manpages/dnsgram.1/
 
+* dnsscope
+
+dnsscope takes an input PCAP and generates some simple statistics outputs these to console.
+https://doc.powerdns.com/md/manpages/dnsscope.1/
+
 File Extraction<a name="fileextraction"></a>
 ----------------------------------------
 
