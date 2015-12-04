@@ -562,6 +562,16 @@ http://www.read.seas.harvard.edu/~kohler/ipsumdump/
   Unix command does. ntop is based on libpcap and it has been written in a
   portable way in order to virtually run on every Unix platform, MacOSX and on
   Win32 as well. (http://www.ntop.org/products/ntop/)
+  
+  
+  
+* dnsreplay
+
+    Dnsreplay takes recorded questions and answers and replays them to the 
+specified nameserver and reporting afterwards which percentage of answers
+matched, were worse or better. Then compares the answers and some other 
+metrics with the actual ones with those found in the dumpfile.
+https://doc.powerdns.com/md/manpages/dnsreplay.1/
 
 File Extraction<a name="fileextraction"></a>
 ----------------------------------------
