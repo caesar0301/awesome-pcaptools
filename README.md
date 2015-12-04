@@ -729,6 +729,13 @@ http://www.cs.berkeley.edu/~abegel/sigcomm99/bpf+.ps
     A paper presented at SIGCOMM '96 on an enhanced version of BPF.
 http://www.pdos.lcs.mit.edu/~engler/dpf.html
 
+* dnswasher
+
+dnswasher takes an input file in PCAP format and writes out a PCAP file, 
+while obfuscating end-user IP addresses. This is useful to share data with 
+third parties while attempting to protect the privacy of your users.
+https://doc.powerdns.com/md/manpages/dnswasher.1/
+
 History
 -----------
 
