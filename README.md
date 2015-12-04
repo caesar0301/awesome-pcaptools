@@ -562,6 +562,32 @@ http://www.read.seas.harvard.edu/~kohler/ipsumdump/
   Unix command does. ntop is based on libpcap and it has been written in a
   portable way in order to virtually run on every Unix platform, MacOSX and on
   Win32 as well. (http://www.ntop.org/products/ntop/)
+  
+  
+  
+* dnsreplay
+
+    Dnsreplay takes recorded questions and answers and replays them to the 
+specified nameserver and reporting afterwards which percentage of answers
+matched, were worse or better. Then compares the answers and some other 
+metrics with the actual ones with those found in the dumpfile.
+https://doc.powerdns.com/md/manpages/dnsreplay.1/
+
+* dnsscan
+
+    dnsscan takes one or more INFILEs in PCAP format and generates a list 
+of the number of queries per query type. https://doc.powerdns.com/md/manpages/dnsscan.1/
+
+* dnsgram
+
+    dnsgram is a debugging tool for intermittent resolver failures. it takes one or more 
+input PCAP files and generates statistics on 5 second segments allowing the study of 
+intermittent resolver issues. https://doc.powerdns.com/md/manpages/dnsgram.1/
+
+* dnsscope
+
+dnsscope takes an input PCAP and generates some simple statistics outputs these to console.
+https://doc.powerdns.com/md/manpages/dnsscope.1/
 
 File Extraction<a name="fileextraction"></a>
 ----------------------------------------
@@ -713,6 +739,13 @@ http://www.cs.berkeley.edu/~abegel/sigcomm99/bpf+.ps
 
     A paper presented at SIGCOMM '96 on an enhanced version of BPF.
 http://www.pdos.lcs.mit.edu/~engler/dpf.html
+
+* dnswasher
+
+dnswasher takes an input file in PCAP format and writes out a PCAP file, 
+while obfuscating end-user IP addresses. This is useful to share data with 
+third parties while attempting to protect the privacy of your users.
+https://doc.powerdns.com/md/manpages/dnswasher.1/
 
 History
 -----------
