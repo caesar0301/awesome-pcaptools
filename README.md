@@ -573,6 +573,11 @@ matched, were worse or better. Then compares the answers and some other
 metrics with the actual ones with those found in the dumpfile.
 https://doc.powerdns.com/md/manpages/dnsreplay.1/
 
+* dnsscan
+
+    dnsscan takes one or more INFILEs in PCAP format and generates a list 
+of the number of queries per query type. https://doc.powerdns.com/md/manpages/dnsscan.1/
+
 File Extraction<a name="fileextraction"></a>
 ----------------------------------------
 
