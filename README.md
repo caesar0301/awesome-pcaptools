@@ -578,6 +578,12 @@ https://doc.powerdns.com/md/manpages/dnsreplay.1/
     dnsscan takes one or more INFILEs in PCAP format and generates a list 
 of the number of queries per query type. https://doc.powerdns.com/md/manpages/dnsscan.1/
 
+* dnsgram
+
+    dnsgram is a debugging tool for intermittent resolver failures. it takes one or more 
+input PCAP files and generates statistics on 5 second segments allowing the study of 
+intermittent resolver issues. https://doc.powerdns.com/md/manpages/dnsgram.1/
+
 File Extraction<a name="fileextraction"></a>
 ----------------------------------------
 
