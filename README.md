@@ -6,18 +6,22 @@ list of tools to process pcap files in research of network traffic. Items with
 notation `(R)` indicate recommendations in specific categories. For more
 awesome lists, see https://github.com/sindresorhus/awesome
 
+
 > * [Linux commands](#linuxcmds)
 > * [Traffic Capture](#capture)
 > * [Traffic Analysis/Inspection](#analysis)
+> * [DNS Utilities](#dnstools)
 > * [File Extraction](#fileextraction)
 > * [Other Projects](#others)
+
+
 
 Linux commands<a name="linuxcmds"></a>
 --------------------------------------
 
 * Nload
 
-    Nload is a commandline tool that allows users to monitor the incoming and
+Nload is a commandline tool that allows users to monitor the incoming and
 outgoing traffic separately. It also draws outa graph to indicate the same, the
 scale of which can be adjusted. Easy and simple to use, and does not support
 many options. [Screenshot](http://www.binarytides.com/blog/wp-
@@ -25,10 +29,10 @@ content/uploads/2014/03/nload.png)
 
 * Iftop
 
-    Iftop measures the data flowing through individual socket connections, and
-it works in a manner that is different from Nload. Iftop uses the pcap library
-to capture the packets moving in and out of the network adapter, and then sums
-up the size and count to find the total bandwidth under use. Although iftop
+Iftop measures the data flowing through individual socket connections, and it
+works in a manner that is different from Nload. Iftop uses the pcap library to
+capture the packets moving in and out of the network adapter, and then sums up
+the size and count to find the total bandwidth under use. Although iftop
 reports the bandwidth used by individual connections, it cannot report the
 process name/id involved in the particular socket connection. But being based
 on the pcap library, iftop is able to filter the traffic and report bandwidth
@@ -38,17 +42,17 @@ content/uploads/2014/03/iftop.png)
 
 * Iptraf
 
-    Iptraf is an interactive and colorful IP Lan monitor. It shows individual
+Iptraf is an interactive and colorful IP Lan monitor. It shows individual
 connections and the amount of data flowing between the hosts.
 [Screenshot](http://www.binarytides.com/blog/wp-
 content/uploads/2014/03/iptraf.png)
 
 * Nethogs
 
-    Nethogs is a small 'net top' tool that shows the bandwidth used by
-individual processes and sorts the list putting the most intensive processes on
-top. In the event of a sudden bandwidth spike, quickly open nethogs and find
-the process responsible. Nethogs reports the PID, user and the path of the
+Nethogs is a small 'net top' tool that shows the bandwidth used by individual
+processes and sorts the list putting the most intensive processes on top. In
+the event of a sudden bandwidth spike, quickly open nethogs and find the
+process responsible. Nethogs reports the PID, user and the path of the
 program. [Screenshot](http://www.binarytides.com/blog/wp-
 content/uploads/2014/03/nethogs.png)
 
@@ -157,6 +161,8 @@ like dstat it is gathers statistics about various different system resources
 like cpu, memory, network etc. Over here is a simple example of how to use it
 to report network usage/bandwidth. [Screenshot]()
 
+
+
 Traffic Capture<a name="capture"></a>
 ---------------
 
@@ -215,11 +221,19 @@ libpcap/WinPcap. (http://jnetpcap.com)
 
 * clj-net-pcap
 
-    clj-net-pcap is a packet capturing library for Clojure. clj-net-pcap uses
+`clj-net-pcap` is a packet capturing library for Clojure. clj-net-pcap uses
 jNetPcap and adds convenience functionality around jNetPcap for easing the
 usability. A paper about clj-net-pcap was published in scope of COMPSACW 2014:
 http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6903107
 (https://github.com/ruedigergad/clj-net-pcap)
+
+* Yaf
+
+It's a reliable piece of software, quite solid and able to generate flow
+records from pcap. This is very nice for indexing huge pcap or even doing
+packet capture. The recent version can even extract payloads and put in the
+Flow records. https://tools.netsa.cert.org/yaf/yaf.html
+
 
 Traffic Analysis/Inspection<a name="analysis"></a>
 --------------------------------------------------
@@ -276,8 +290,7 @@ https://github.com/simsong/tcpflow
 
 * Tcpreplay
 
-    Replays a pcap file on an interface using libnet.
-    http://tcpreplay.synfin.net/
+Replays a pcap file on an interface using libnet. http://tcpreplay.synfin.net/
 
 * Tcpstat
 
@@ -559,8 +572,56 @@ http://www.read.seas.harvard.edu/~kohler/ipsumdump/
   portable way in order to virtually run on every Unix platform, MacOSX and on
   Win32 as well. (http://www.ntop.org/products/ntop/)
 
+* TraceWrangler
+
+TraceWrangler is a network capture file toolkit running on Windows (or on
+Linux, using WINE) that supports PCAP as well as the new PCAPng file format,
+which is now the standard file format used by Wireshark. The most prominent use
+case for TraceWrangler is the easy sanitization and anonymization of PCAP and
+PCAPng files (sometimes called "trace files", "capture files" or "packet
+captures"), removing or replacing sensitive data while being easy to
+use. https://www.tracewrangler.com/
+
+
+DNS Utilities <a name="dnstools"></a>
+--------------------------------------------
+
+* dnsreplay
+
+    Dnsreplay takes recorded questions and answers and replays them to the
+specified nameserver and reporting afterwards which percentage of answers
+matched, were worse or better. Then compares the answers and some other metrics
+with the actual ones with those found in the dumpfile.
+https://doc.powerdns.com/md/manpages/dnsreplay.1/
+
+* dnsscan
+
+    dnsscan takes one or more INFILEs in PCAP format and generates a list of
+the number of queries per query
+type. https://doc.powerdns.com/md/manpages/dnsscan.1/
+
+* dnsgram
+
+    dnsgram is a debugging tool for intermittent resolver failures. it takes
+one or more input PCAP files and generates statistics on 5 second segments
+allowing the study of intermittent resolver
+issues. https://doc.powerdns.com/md/manpages/dnsgram.1/
+
+* dnsscope
+
+dnsscope takes an input PCAP and generates some simple statistics outputs these
+to console.  https://doc.powerdns.com/md/manpages/dnsscope.1/
+
+* dnswasher
+
+dnswasher takes an input file in PCAP format and writes out a PCAP file, while
+obfuscating end-user IP addresses. This is useful to share data with third
+parties while attempting to protect the privacy of your users.
+https://doc.powerdns.com/md/manpages/dnswasher.1/
+
+
 File Extraction<a name="fileextraction"></a>
-----------------------------------------
+--------------------------------------------
 
 * Xplico
 
@@ -654,6 +715,8 @@ it can handle several interfaces, including ethernet cards and ppp. It is
 useful to keep track of what users of a network are doing, and is usable with
 textmode tools like grep, sed, awk. http://tcpick.sourceforge.net/
 
+
+
 Other Projects<a name="others"></a>
 -------------------------------------------
 
@@ -699,6 +762,14 @@ http://www.cs.berkeley.edu/~abegel/sigcomm99/bpf+.ps
 
     A paper presented at SIGCOMM '96 on an enhanced version of BPF.
 http://www.pdos.lcs.mit.edu/~engler/dpf.html
+
+* RIPE-NCC Hadoop for PCAP
+
+    A Hadoop library to read packet capture (PCAP) files. Bundles the code used
+to read PCAPs. Can be used within MapReduce jobs to natively read PCAP files.
+Also features a Hive Serializer/Deserializer (SerDe) to query PCAPs using SQL
+like commands. More information on: https://github.com/RIPE-NCC/hadoop-pcap.
+
 
 History
 -----------
