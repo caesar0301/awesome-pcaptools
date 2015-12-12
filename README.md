@@ -563,6 +563,12 @@ http://www.read.seas.harvard.edu/~kohler/ipsumdump/
   portable way in order to virtually run on every Unix platform, MacOSX and on
   Win32 as well. (http://www.ntop.org/products/ntop/)
 
+* Chopshop
+
+    ChopShop is a MITRE developed framework to aid analysts in the creation and 
+execution of pynids based decoders and detectors of APT tradecraft.
+https://github.com/MITRECND/chopshop
+
 File Extraction<a name="fileextraction"></a>
 ----------------------------------------
 
