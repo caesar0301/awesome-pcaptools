@@ -87,6 +87,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [Bro](http://bro- ids.org/): is an open-source, Unix-based Network Intrusion Detection System (NIDS) that passively monitors network traffic and looks for suspicious activity. Bro detects intrusions by first parsing network traffic to extract its application- level semantics and then executing event-oriented analyzers that compare the activity with patterns deemed troublesome. Its analysis includes detection of specific attacks (including those defined by signatures, but also those defined in terms of events) and unusual activities (e.g., certain hosts connecting to certain services, or patterns of failed connection attempts).
 
+* [Chopshop](https://github.com/MITRECND/chopshop) is a MITRE developed framework to aid analysts in the creation and execution of pynids based decoders and detectors of APT tradecraft. 
+
 * [CoralReef](http://www.caida.org/tools/measurement/coralreef/): is a software suite developed by CAIDA to analyze data collected by passive Internet traffic monitors. It provides a programming library libcoral, similar to libpcap with extensions for ATM and other network types, which is available from both C and Perl.
 
 * [DPKT](http://code.google.com/p/dpkt/): Python packet creation/parsing library.
