@@ -182,6 +182,12 @@ DNS Utilities <a name="dnstools"></a>
 * [dnswasher](https://doc.powerdns.com/md/manpages/dnswasher.1/): dnswasher takes an input file in PCAP format and writes out a PCAP file, while obfuscating end-user IP addresses. This is useful to share data with third parties while attempting to protect the privacy of your users.
 
 
+* Chopshop
+
+    ChopShop is a MITRE developed framework to aid analysts in the creation and 
+execution of pynids based decoders and detectors of APT tradecraft.
+https://github.com/MITRECND/chopshop
+
 File Extraction<a name="fileextraction"></a>
 --------------------------------------------
 
