@@ -91,6 +91,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [CoralReef](http://www.caida.org/tools/measurement/coralreef/): is a software suite developed by CAIDA to analyze data collected by passive Internet traffic monitors. It provides a programming library libcoral, similar to libpcap with extensions for ATM and other network types, which is available from both C and Perl.
 
+* [DPDK](http://dpdk.org/): is a set of libraries and drivers for fast packet processing. It was designed to run on any processors. The first supported CPU was Intel x86 and it is now extended to IBM Power 8, EZchip TILE-Gx and ARM. It runs mostly in Linux userland. A FreeBSD port is available for a subset of DPDK features.
+
 * [DPKT](http://code.google.com/p/dpkt/): Python packet creation/parsing library.
 
 * [ECap](https://bitbucket.org/nathanj/ecap/wiki): (External Capture) is a distributed network sniffer with a web front- end. Ecap was written many years ago in 2005, but a post on the tcpdump-workers mailing list requested a similar application... so here it is. It would be fun to update it and work on it again if there's any interest.
