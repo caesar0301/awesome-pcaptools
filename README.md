@@ -1,5 +1,7 @@
-Introduction [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+Introduction
 ------------
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.org/caesar0301/awesome-pcaptools.svg)](https://travis-ci.org/caesar0301/awesome-pcaptools)
 
 This project does not contain any source code or files. I just want to make a list of tools to process pcap files in research of network traffic. For more awesome lists, see https://github.com/sindresorhus/awesome
 
@@ -18,7 +20,7 @@ This project does not contain any source code or files. I just want to make a li
 Linux commands<a name="linuxcmds"></a>
 --------------------------------------
 
-* **Bmon**: (Bandwidth Monitor) is a tool similar to nload that shows the traffic load over all the network interfaces on the system. The output also consists of a graph and a section with packet level details. [Screenshot](http://www.binarytides.com/blog/wp- content/uploads/2014/03 /bmon- 640x480.png)
+* **Bmon**: (Bandwidth Monitor) is a tool similar to nload that shows the traffic load over all the network interfaces on the system. The output also consists of a graph and a section with packet level details. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03 /bmon- 640x480.png)
 
 * **Bwm-ng**: (Bandwidth Monitor Next Generation) is another very simple real time network load monitor that reports a summary of the speed at which data is being transferred in and out of all available network interfaces on the system. [Screenshot]()
 
@@ -30,29 +32,29 @@ Linux commands<a name="linuxcmds"></a>
 
 * **Ifstat**: reports the network bandwidth in a batch style mode. The output is in a format that is easy to log and parse using other programs or utilities. [Screenshot]()
 
-* **Iftop**: measures the data flowing through individual socket connections, and it works in a manner that is different from Nload. Iftop uses the pcap library to capture the packets moving in and out of the network adapter, and then sums up the size and count to find the total bandwidth under use. Although iftop reports the bandwidth used by individual connections, it cannot report the process name/id involved in the particular socket connection. But being based on the pcap library, iftop is able to filter the traffic and report bandwidth usage over selected host connections as specified by the filter. [Screenshot](http://www.binarytides.com/blog/wp- content/uploads/2014/03/iftop.png)
+* **Iftop**: measures the data flowing through individual socket connections, and it works in a manner that is different from Nload. Iftop uses the pcap library to capture the packets moving in and out of the network adapter, and then sums up the size and count to find the total bandwidth under use. Although iftop reports the bandwidth used by individual connections, it cannot report the process name/id involved in the particular socket connection. But being based on the pcap library, iftop is able to filter the traffic and report bandwidth usage over selected host connections as specified by the filter. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/iftop.png)
 
-* **Iptraf**: is an interactive and colorful IP Lan monitor. It shows individual connections and the amount of data flowing between the hosts. [Screenshot](http://www.binarytides.com/blog/wp- content/uploads/2014/03/iptraf.png)
+* **Iptraf**: is an interactive and colorful IP Lan monitor. It shows individual connections and the amount of data flowing between the hosts. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/iptraf.png)
 
 * **Jnettop**: [Jnettop](http://jnettop.kubs.info/wiki/) is a traffic visualiser, which captures traffic going through the host it is running from and displays streams sorted by bandwidth they use. [Screenshot](http://jnettop.kubs.info/wiki/?binary=internal%3A%2F%2F76195466cc3bca92f8de7b404e240844.gif)
 
-* **Nethogs**: is a small 'net top' tool that shows the bandwidth used by individual processes and sorts the list putting the most intensive processes on top. In the event of a sudden bandwidth spike, quickly open nethogs and find the process responsible. Nethogs reports the PID, user and the path of the program. [Screenshot](http://www.binarytides.com/blog/wp- content/uploads/2014/03/nethogs.png)
+* **Nethogs**: is a small 'net top' tool that shows the bandwidth used by individual processes and sorts the list putting the most intensive processes on top. In the event of a sudden bandwidth spike, quickly open nethogs and find the process responsible. Nethogs reports the PID, user and the path of the program. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/nethogs.png)
 
-* **Netload**: displays a small report on the current traffic load, and the total number of bytes transferred since the program start. No more features are there. Its part of the netdiag. [Screenshot](http://www.binarytides.com/blog/wp- content/uploads/2014/03/netload.png)
+* **Netload**: displays a small report on the current traffic load, and the total number of bytes transferred since the program start. No more features are there. Its part of the netdiag. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/netload.png)
 
-* **Netwatch**: is part of the netdiag collection of tools, and it too displays the connections between local host and other remote hosts, and the speed at which data is transferring on each connection. [Screenshot](http://www.binarytides.com/blog/wp- content/uploads/2014/03/netwatch.png)
+* **Netwatch**: is part of the netdiag collection of tools, and it too displays the connections between local host and other remote hosts, and the speed at which data is transferring on each connection. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/netwatch.png)
 
-* **Nload**: is a commandline tool that allows users to monitor the incoming and outgoing traffic separately. It also draws outa graph to indicate the same, the scale of which can be adjusted. Easy and simple to use, and does not support many options. [Screenshot](http://www.binarytides.com/blog/wp- content/uploads/2014/03/nload.png)
+* **Nload**: is a commandline tool that allows users to monitor the incoming and outgoing traffic separately. It also draws outa graph to indicate the same, the scale of which can be adjusted. Easy and simple to use, and does not support many options. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/nload.png)
 
-* **Pktstat**: displays all the active connections in real time, and the speed at which data is being transferred through them. It also displays the type of the connection, i.e. tcp or udp and also details about http requests if involved. [Screenshot](http://www.binarytides.com/blog/wp- content/uploads/2014/03/pktstat.png)
+* **Pktstat**: displays all the active connections in real time, and the speed at which data is being transferred through them. It also displays the type of the connection, i.e. tcp or udp and also details about http requests if involved. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/pktstat.png)
 
-* **Slurm**: is 'yet' another network load monitor that shows device statistics along with an ascii graph. It supports 3 different styles of graphs each of which can be activated using the c, s and l keys. Simple in features, slurm does not display any further details about the network load. [Screenshot](http://www.binarytides.com/blog/wp- content/uploads/2014/03/slurm.png)
+* **Slurm**: is 'yet' another network load monitor that shows device statistics along with an ascii graph. It supports 3 different styles of graphs each of which can be activated using the c, s and l keys. Simple in features, slurm does not display any further details about the network load. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/slurm.png)
 
-* **Speedometer**: Another small and simple tool that just draws out good looking graphs of incoming and outgoing traffic through a given interface. [Screenshot](http://www.binarytides.com/blog/wp- content/uploads/2014/03/speedometer.png)
+* **Speedometer**: Another small and simple tool that just draws out good looking graphs of incoming and outgoing traffic through a given interface. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/speedometer.png)
 
-* **Tcptrack**: is similar to iftop, and uses the pcap library to capture packets and calculate various statistics like the bandwidth used in each connection. It also supports the standard pcap filters that can be used to monitor specific connections. [Screenshot](http://www.binarytides.com/blog /wp- content/uploads/2014/03/tcptrack.png)
+* **Tcptrack**: is similar to iftop, and uses the pcap library to capture packets and calculate various statistics like the bandwidth used in each connection. It also supports the standard pcap filters that can be used to monitor specific connections. [Screenshot](http://www.binarytides.com/blog /wp-content/uploads/2014/03/tcptrack.png)
 
-* **Trafshow**: reports the current active connections, their protocol and the data transfer speed on each connection. It can filter out connections using pcap type filters. [Screenshot](http://www.binarytides.com/blog/wp- content/uploads/2014/03/trafshow.png)
+* **Trafshow**: reports the current active connections, their protocol and the data transfer speed on each connection. It can filter out connections using pcap type filters. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/trafshow.png)
 
 * **Vnstat**: is bit different from most of the other tools. It actually runs a background service/daemon and keeps recording the size of data transfer all the time. Next it can be used to generate a report of the history of network usage. [Screenshot]()
 
@@ -63,7 +65,7 @@ Traffic Capture<a name="capture"></a>
 
 * [Libpcap/Tcpdump](http://www.tcpdump.org/): The official site of tcpdump, a powerful command-line packet analyzer; and libpcap, a portable C/C++ library for network traffic capture.
 
-* [Ngrep](http://www.packetfactory.net/Projects/ngrep): strives to provide most of GNU grep's common features, applying them to the network layer. ngrep is a pcap-aware tool that will allow you to specify extended regular or hexadecimal expressions to match against data payloads of packets. It currently recognizes TCP, UDP and ICMP across Ethernet, PPP, SLIP, FDDI, Token Ring and null interfaces, and understands bpf filter logic in the same fashion as more common packet sniffing tools, such as tcpdump and snoop.
+* [Ngrep](http://ngrep.sourceforge.net/): strives to provide most of GNU grep's common features, applying them to the network layer. ngrep is a pcap-aware tool that will allow you to specify extended regular or hexadecimal expressions to match against data payloads of packets. It currently recognizes TCP, UDP and ICMP across Ethernet, PPP, SLIP, FDDI, Token Ring and null interfaces, and understands bpf filter logic in the same fashion as more common packet sniffing tools, such as tcpdump and snoop.
 
 * [clj-net-pcap](https://github.com/ruedigergad/clj-net-pcap): `clj-net-pcap` is a packet capturing library for Clojure. clj-net-pcap uses jNetPcap and adds convenience functionality around jNetPcap for easing the usability. A [paper on clj-net-pcap](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6903107) was published in scope of COMPSACW 2014.
 
@@ -85,7 +87,7 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [AIEngine](https://bitbucket.org/camp0/aiengine): is a next generation interactive/programmable packet inspection engine with capabilities of learning without any human intervention, NIDS functionality, DNS domain classification, network collector and many others. AIEngine also helps network/security professionals to identify traffic and develop signatures for use them on NIDS, Firewalls, Traffic classifiers and so on.
 
-* [Bro](http://bro- ids.org/): is an open-source, Unix-based Network Intrusion Detection System (NIDS) that passively monitors network traffic and looks for suspicious activity. Bro detects intrusions by first parsing network traffic to extract its application- level semantics and then executing event-oriented analyzers that compare the activity with patterns deemed troublesome. Its analysis includes detection of specific attacks (including those defined by signatures, but also those defined in terms of events) and unusual activities (e.g., certain hosts connecting to certain services, or patterns of failed connection attempts).
+* [Bro](http://bro-ids.org/): is an open-source, Unix-based Network Intrusion Detection System (NIDS) that passively monitors network traffic and looks for suspicious activity. Bro detects intrusions by first parsing network traffic to extract its application- level semantics and then executing event-oriented analyzers that compare the activity with patterns deemed troublesome. Its analysis includes detection of specific attacks (including those defined by signatures, but also those defined in terms of events) and unusual activities (e.g., certain hosts connecting to certain services, or patterns of failed connection attempts).
 
 * [Chopshop](https://github.com/MITRECND/chopshop) is a MITRE developed framework to aid analysts in the creation and execution of pynids based decoders and detectors of APT tradecraft. 
 
@@ -103,15 +105,15 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [Ipsumdump](http://www.read.seas.harvard.edu/~kohler/ipsumdump/): summarizes TCP/IP dump files into a self-describing ASCII format easily readable by humans and programs. Ipsumdump can read packets from network interfaces, from tcpdump files, and from existing ipsumdump files. It will transparently uncompress tcpdump or ipsumdump files when necessary. It can randomly sample traffic, filter traffic based on its contents, anonymize IP addresses, and sort packets from multiple dumps by timestamp. Also, it can optionally create a tcpdump file containing actual packet data. It's also convinient to work with CLICK as a inserted module.
 
-* [ITA](http://www.sigcomm.org/ITA/): The Internet Traffic Archive is a moderated repository to support widespread access to traces of Internet network traffic, sponsored by ACM SIGCOMM. The traces can be used to study network dynamics, usage characteristics, and growth patterns, as well as providing the grist for trace- driven simulations. The archive is also open to programs for reducing raw trace data to more manageable forms, for generating synthetic traces, and for analyzing traces.
+* [ITA](http://ita.ee.lbl.gov/): The Internet Traffic Archive is a moderated repository to support widespread access to traces of Internet network traffic, sponsored by ACM SIGCOMM. The traces can be used to study network dynamics, usage characteristics, and growth patterns, as well as providing the grist for trace- driven simulations. The archive is also open to programs for reducing raw trace data to more manageable forms, for generating synthetic traces, and for analyzing traces.
 
 * [Libcrafter](http://code.google.com/p/libcrafter/): is a high level library for C++ designed to make easier the creation and decoding of network packets. It is able to craft or decode packets of most common network protocols, send them on the wire, capture them and match requests and replies.
 
-* [Libnet](http://www.packetfactory.net/Projects/Libnet/): is a collection of routines to help with the construction and handling of network packets. It provides a portable framework for low-level network packet shaping, handling and injection. Libnet features portable packet creation interfaces at the IP layer and link layer, as well as a host of supplementary and complementary functionality. Using libnet, quick and simple packet assembly applications can be whipped up with little effort.
+* [Libnet](http://libnet.sourceforge.net/): is a collection of routines to help with the construction and handling of network packets. It provides a portable framework for low-level network packet shaping, handling and injection. Libnet features portable packet creation interfaces at the IP layer and link layer, as well as a host of supplementary and complementary functionality. Using libnet, quick and simple packet assembly applications can be whipped up with little effort.
 
 * [Libnids](http://libnids.sourceforge.net/): designed by Rafal Wojtczuk, is an implementation of an E-component of Network Intrusion Detection System. It emulates the IP stack of Linux 2.0.x. Libnids offers IP defragmentation, TCP stream assembly and TCP port scan detection. The most valuable feature of libnids is reliability. A number of tests were conducted, which proved that libnids predicts behaviour of protected Linux hosts as closely as possible.
 
-* [Multitail](http://netsniff- ng.org/): now has a colorscheme included for monitoring the tcpdump output. It can also filter, convert timestamps to timestrings and much more. http://www.vanheusden.com/multitail]: * Netsniff-ng]: Netsniff-ng is a toolkit of free Linux networking utilities, a Swiss army knife for your daily Linux network plumbing if you will. [GitHub](www.github.com/borkmann/netsniff-ng).
+* [Multitail](http://netsniff-ng.org/): now has a colorscheme included for monitoring the tcpdump output. It can also filter, convert timestamps to timestrings and much more. http://www.vanheusden.com/multitail]: * Netsniff-ng]: Netsniff-ng is a toolkit of free Linux networking utilities, a Swiss army knife for your daily Linux network plumbing if you will. [GitHub](www.github.com/borkmann/netsniff-ng).
 
 * [NetDude](http://netdude.sourceforge.net/): (NETwork DUmp data Displayer and Editor). From their webpage, "it is a GUI-based tool that allows you to make detailed changes to packets in tcpdump tracefiles."
 
@@ -213,8 +215,6 @@ Related Projects<a name="others"></a>
 * [BPF for Ultrix](http://www.tcpdump.org/other/bpfext42.tar.Z): A distribution of BPF for Ultrix 4.2, with both source code and binary modules.
 
 * [BPF+](http://www.cs.berkeley.edu/~abegel/sigcomm99/bpf+.ps): Exploiting Global Data-flow Optimization in a Generalized Packet Filter Architecture By Andrew Begel, Steven McCanne, and Susan Graham.
-
-* [DPF](http://www.pdos.lcs.mit.edu/~engler/dpf.html): A paper presented at SIGCOMM '96 on an enhanced version of BPF.
 
 * [FFT-FGN-C](http://ita.ee.lbl.gov/html/contrib/fft_fgn_c.html): is a program for synthesizing a type of self-similar process known as fractional Gaussian noise. The program is fast but approximate. Fractional Gaussian noise is only one type of self-similar process. When using this program for synthesizing network traffic, you must keep in mind that it may be that the traffic you seek is better modeled using one of the other processes.
 
