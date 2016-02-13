@@ -127,6 +127,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [pkt2flow](https://github.com/caesar0301/pkt2flow): A simple utility to classify packets into flows. It's so simple that only one task is aimed to finish.  For Deep Packet Inspection or flow classification, it's so common to analyze the feature of one specific flow. I have make the attempt to use made-ready tools like tcpflows, tcpslice, tcpsplit, but all these tools try to either decrease the trace volume (under requirement) or resemble the packets into flow payloads (over requirement). I have not found a simple tool to classify the packets into flows without further processing.
 
+* [potiron](https://github.com/CIRCL/potiron): Normalizes, indexes, enriches and visualizes network captures.
+
 * [pyshark](http://kiminewt.github.io/pyshark/): A Python wrapper for tshark, allowing python packet parsing using wireshark dissectors. There are quite a few python packet parsing modules, this one is different because it doesn't actually parse any packets, it simply uses tshark's (wireshark command-line utility) ability to export XMLs to use its parsing.
 
 * [Sanitize](http://ita.ee.lbl.gov/html/contrib/sanitize.html): Sanitize is a collection of five Bourne shell scripts for reducing tcpdump traces in order to address security and privacy concerns, by renumbering hosts and stripping out packet contents. Each script takes as input a tcpdump trace file and generates to stdout a reduced, ASCII file in fixed-column format.
