@@ -103,7 +103,7 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [HttpSniffer](https://github.com/caesar0301/http-sniffer): A multi-threading tool to sniff TCP flow statistics and embedded HTTP headers from PCAP file. Each TCP flow carrying HTTP is exported to text file in JSON format.
 
-* [Ipsumdump](http://www.read.seas.harvard.edu/~kohler/ipsumdump/): summarizes TCP/IP dump files into a self-describing ASCII format easily readable by humans and programs. Ipsumdump can read packets from network interfaces, from tcpdump files, and from existing ipsumdump files. It will transparently uncompress tcpdump or ipsumdump files when necessary. It can randomly sample traffic, filter traffic based on its contents, anonymize IP addresses, and sort packets from multiple dumps by timestamp. Also, it can optionally create a tcpdump file containing actual packet data. It's also convinient to work with CLICK as a inserted module.
+* [Ipsumdump](http://www.read.seas.harvard.edu/~kohler/ipsumdump/): summarizes TCP/IP dump files into a self-describing ASCII format easily readable by humans and programs. Ipsumdump can read packets from network interfaces, from tcpdump files, and from existing ipsumdump files. It will transparently uncompress tcpdump or ipsumdump files when necessary. It can randomly sample traffic, filter traffic based on its contents, anonymize IP addresses, and sort packets from multiple dumps by timestamp. Also, it can optionally create a tcpdump file containing actual packet data. It's also convenient to work with CLICK as a inserted module.
 
 * [ITA](http://ita.ee.lbl.gov/): The Internet Traffic Archive is a moderated repository to support widespread access to traces of Internet network traffic, sponsored by ACM SIGCOMM. The traces can be used to study network dynamics, usage characteristics, and growth patterns, as well as providing the grist for trace- driven simulations. The archive is also open to programs for reducing raw trace data to more manageable forms, for generating synthetic traces, and for analyzing traces.
 
@@ -157,7 +157,7 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [Tcpstat](http://www.frenchfries.net/paul/tcpstat/): Tcpstat reports certain network interface statistics much like vmstat does for system statistics. tcpstat gets its information by either monitoring a specific interface, or by reading previously saved tcpdump data from a file.
 
-* [Tcptrace](http://tcptrace.org/index.html): A tool written by Shawn Ostermann at Ohio University, for analysis of TCP dump files. It can take as input the files produced by several popular packet- capture programs, including tcpdump, snoop, etherpeek, HP Net Metrix, and WinDump. tcptrace can produce several different types of output containing information on each connection seen, such as elapsed time, bytes and segments sent and recieved, retransmissions, round trip times, window advertisements, throughput, and more. It can also produce a number of graphs for further analysis.
+* [Tcptrace](http://tcptrace.org/index.html): A tool written by Shawn Ostermann at Ohio University, for analysis of TCP dump files. It can take as input the files produced by several popular packet- capture programs, including tcpdump, snoop, etherpeek, HP Net Metrix, and WinDump. tcptrace can produce several different types of output containing information on each connection seen, such as elapsed time, bytes and segments sent and received, retransmissions, round trip times, window advertisements, throughput, and more. It can also produce a number of graphs for further analysis.
 
 * [TraceWrangler](https://www.tracewrangler.com/): TraceWrangler is a network capture file toolkit running on Windows (or on Linux, using WINE) that supports PCAP as well as the new PCAPng file format, which is now the standard file format used by Wireshark. The most prominent use case for TraceWrangler is the easy sanitization and anonymization of PCAP and PCAPng files (sometimes called "trace files", "capture files" or "packet captures"), removing or replacing sensitive data while being easy to use.
 
@@ -169,7 +169,7 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [Sniffer](http://www.sniffer.com/products/sniffer-basic/default.asp?A=2): The Sniffer product family covers different fields of application (Distributed, Portable and Wireless Environment). Sniffer solutions monitor, troubleshoot, analyze, report on, and proactively manage network performance. They ensure peak performance throughout the enterprise infrastructure, across all LAN, WAN and high-speed topologies, from 10/100 Ethernet to the latest high-speed Asynchronous ATM, Gigabit, and Packet-over-SONET (PoS) backbones.
 
-* [Wireshark suit](http://wiki.wireshark.org/Tools): The well-konwn tool suit to support packet analyzer and protocol decoder. It also includes a few practical tools and scripts to support most of the common usage.
+* [Wireshark suit](http://wiki.wireshark.org/Tools): The well-known tool suit to support packet analyzer and protocol decoder. It also includes a few practical tools and scripts to support most of the common usage.
 
 * [Xplot](http://www.xplot.org/): The program xplot was written in the late 1980s to support the analysis of TCP packet traces.
 
