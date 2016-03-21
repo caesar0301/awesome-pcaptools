@@ -167,8 +167,6 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [WinPcap](http://www.tcpdump.org/wpcap.html): An extract of a message from Guy Harris on state of WinPcap and WinDump.
 
-* [Sniffer](http://www.sniffer.com/products/sniffer-basic/default.asp?A=2): The Sniffer product family covers different fields of application (Distributed, Portable and Wireless Environment). Sniffer solutions monitor, troubleshoot, analyze, report on, and proactively manage network performance. They ensure peak performance throughout the enterprise infrastructure, across all LAN, WAN and high-speed topologies, from 10/100 Ethernet to the latest high-speed Asynchronous ATM, Gigabit, and Packet-over-SONET (PoS) backbones.
-
 * [Wireshark suit](http://wiki.wireshark.org/Tools): The well-known tool suit to support packet analyzer and protocol decoder. It also includes a few practical tools and scripts to support most of the common usage.
 
 * [Xplot](http://www.xplot.org/): The program xplot was written in the late 1980s to support the analysis of TCP packet traces.
