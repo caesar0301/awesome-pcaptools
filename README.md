@@ -173,6 +173,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [Xplot](http://www.xplot.org/): The program xplot was written in the late 1980s to support the analysis of TCP packet traces.
 
+* [yaraprocessor](https://github.com/MITRECND/yaraprocessor): With yaraprocessor YARA can be run against individual packet payloads as well as a concatenation of some or all of the payloads. It was originally written for use in Chopshop, but can also be used without it.
+
 
 DNS Utilities <a name="dnstools"></a>
 --------------------------------------------
