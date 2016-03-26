@@ -201,6 +201,8 @@ File Extraction<a name="fileextraction"></a>
 
 * [NetworkMiner](http://www.netresec.com/?page=NetworkMiner): NetworkMiner is a Network Forensic Analysis Tool (NFAT) for Windows (but also works in Linux / Mac OS X / FreeBSD). NetworkMiner can be used as a passive network sniffer/packet capturing tool in order to detect operating systems, sessions, hostnames, open ports etc. without putting any traffic on the network. NetworkMiner can also parse PCAP files for off-line analysis and to regenerate/ reassemble transmitted files and certificates from PCAP files.
 
+* [pcapfex](https://github.com/vikwin/pcapfex) - Packet CAPture Forensic Evidence eXtractor (pcapfex) is a tool that finds and extracts files from packet capture files. Its power lies in its ease of use. Just provide it a pcap file, and it will try to extract all of the files. It is an extensible platform, so additional file types to recognize and extract can be added easily.
+
 * [Snort](http://www.snort.org/): is an open source network intrusion prevention and detection system (IDS/IPS) developed by Sourcefire, now owned by Cisco. Combining the benefits of signature, protocol and anomaly- based inspection, Snort is the most widely deployed IDS/IPS technology worldwide.
 
 * [Tcpick](http://tcpick.sourceforge.net/): is a textmode sniffer libpcap-based that can track, reassemble and reorder tcp streams. Tcpick is able to save the captured flows in different files or displays them in the terminal, and so it is useful to sniff files that are transmitted via ftp or http. It can display all the stream on the terminal, when the connection is closed in different display modes like hexdump, hexdump + ascii, only printable characters, raw mode and so on.
