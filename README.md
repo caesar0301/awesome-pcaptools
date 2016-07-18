@@ -371,6 +371,10 @@ https://bitbucket.org/nathanj/ecap/wiki
 headers from PCAP file. Each TCP flow carrying HTTP is exported to text file in
 JSON format. https://github.com/caesar0301/http-sniffer
 
+* Gor
+
+	Gor is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data. It can be used to increase confidence in code deployments, configuration changes and infrastructure changes. https://gortool.com
+
 * AIEngine
 
     AIEngine is a next generation interactive/programmable packet inspection
