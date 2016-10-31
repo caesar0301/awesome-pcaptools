@@ -147,6 +147,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [Socket Sentry](http://code.google.com/p/socket-sentry): Socket Sentry is a real-time network traffic monitor for KDE Plasma in the same spirit as tools like iftop and netstat.
 
+* [Suricata](https://suricata-ids.org): Suricata is a free and open source, mature, fast and robust network threat detection engine.  The Suricata engine is capable of real time intrusion detection (IDS), inline intrusion prevention (IPS), network security monitoring (NSM) and offline pcap processing.
+
 * [TCP-Reduce](http://ita.ee.lbl.gov/html/contrib/tcp-reduce.html): TCP-Reduce is a collection of Bourne shell scripts for reducing tcpdump traces to one-line summaries of each TCP connection present in the trace. The scripts look only at TCP SYN/FIN/RST packets. Connections without SYN packets in the trace (such as those on- going at the beginning of the trace) will not appear in the summary. Garbaged packets (those missing some of their contents) are reported to stderr as bogon's and are discarded. Occasionally the script gets fooled by retransmissions with altered sequence numbers, and reports erroneous huge connection sizes - always check large connections (say 100 MB or more) for plausibility.
 
 * [Tcpdpriv](http://ita.ee.lbl.gov/html/contrib/tcpdpriv.html): Tcpdpriv is program for eliminating confidential information (user data and addresses) from packets collected on a network interface (or, from trace files created using the -w argument to tcpdump). Tcpdpriv removes the payload of TCP and UDP, and the entire IP payload for other protocols. It implements several address scrambling methods; the sequential numbering method and its variants, and a hash method with preserving address prefix.
