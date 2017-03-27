@@ -52,7 +52,7 @@ Linux commands<a name="linuxcmds"></a>
 
 * **Speedometer**: Another small and simple tool that just draws out good looking graphs of incoming and outgoing traffic through a given interface. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/speedometer.png)
 
-* **Tcptrack**: is similar to iftop, and uses the pcap library to capture packets and calculate various statistics like the bandwidth used in each connection. It also supports the standard pcap filters that can be used to monitor specific connections. [Screenshot](http://www.binarytides.com/blog /wp-content/uploads/2014/03/tcptrack.png)
+* **Tcptrack**: is similar to iftop, and uses the pcap library to capture packets and calculate various statistics like the bandwidth used in each connection. It also supports the standard pcap filters that can be used to monitor specific connections. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/tcptrack.png)
 
 * **Trafshow**: reports the current active connections, their protocol and the data transfer speed on each connection. It can filter out connections using pcap type filters. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/trafshow.png)
 
