@@ -3,7 +3,9 @@ Introduction
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.org/caesar0301/awesome-pcaptools.svg)](https://travis-ci.org/caesar0301/awesome-pcaptools)
 
-This project does not contain any source code or files. I just want to make a list of tools to process pcap files in research of network traffic. For more awesome lists, see https://github.com/sindresorhus/awesome
+This project does not contain any source code or files. I just want to make a list of tools to process pcap files in research of network traffic. 
+
+For more awesome lists, see [https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome)
 
 **License**: Apache License v2.
 
@@ -20,43 +22,81 @@ This project does not contain any source code or files. I just want to make a li
 Linux commands<a name="linuxcmds"></a>
 --------------------------------------
 
-* **Bmon**: (Bandwidth Monitor) is a tool similar to nload that shows the traffic load over all the network interfaces on the system. The output also consists of a graph and a section with packet level details. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03 /bmon- 640x480.png)
+* **Bmon**: (Bandwidth Monitor) is a tool similar to nload that shows the traffic load over all the network interfaces on the system. The output also consists of a graph and a section with packet level details. 
 
-* **Bwm-ng**: (Bandwidth Monitor Next Generation) is another very simple real time network load monitor that reports a summary of the speed at which data is being transferred in and out of all available network interfaces on the system. [Screenshot]()
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/bmon-640x480.png)
 
-* **CBM**: (Color Bandwidth Meter) A tiny little simple bandwidth monitor that displays the traffic volume through network interfaces. No further options, just the traffic stats are display and updated in realtime. [Screenshot](http://www.binarytides.com/blog /wp-content/uploads/2014/03/cbm.png)
+* **Bwm-ng**: (Bandwidth Monitor Next Generation) is another very simple real time network load monitor that reports a summary of the speed at which data is being transferred in and out of all available network interfaces on the system. 
 
-* **Collectl**: reports system statistics in a style that is similar to dstat, and like dstat it is gathers statistics about various different system resources like cpu, memory, network etc. Over here is a simple example of how to use it to report network usage/bandwidth. [Screenshot]()
+![Screenshot](https://www.bishnet.net/tim/blog/wp-content/uploads/2006/03/bwm-ng.png)
 
-* **Dstat**: is a versatile tool (written in python) that can monitor different system statistics and report them in a batch style mode or log the data to a csv or similar file. This example shows how to use dstat to report network bandwidth [Screenshot]()
+* **CBM**: (Color Bandwidth Meter) A tiny little simple bandwidth monitor that displays the traffic volume through network interfaces. No further options, just the traffic stats are display and updated in realtime. 
 
-* **Ifstat**: reports the network bandwidth in a batch style mode. The output is in a format that is easy to log and parse using other programs or utilities. [Screenshot]()
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/cbm.png)
 
-* **Iftop**: measures the data flowing through individual socket connections, and it works in a manner that is different from Nload. Iftop uses the pcap library to capture the packets moving in and out of the network adapter, and then sums up the size and count to find the total bandwidth under use. Although iftop reports the bandwidth used by individual connections, it cannot report the process name/id involved in the particular socket connection. But being based on the pcap library, iftop is able to filter the traffic and report bandwidth usage over selected host connections as specified by the filter. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/iftop.png)
+* **Collectl**: reports system statistics in a style that is similar to dstat, and like dstat it is gathers statistics about various different system resources like cpu, memory, network etc. Over here is a simple example of how to use it to report network usage/bandwidth. 
 
-* **Iptraf**: is an interactive and colorful IP Lan monitor. It shows individual connections and the amount of data flowing between the hosts. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/iptraf.png)
+![Screenshot](https://i0.wp.com/foxutech.com/wp-content/uploads/2017/03/collectl-1.jpg?resize=640%2C198&ssl=1)
 
-* **Jnettop**: [Jnettop](http://jnettop.kubs.info/wiki/) is a traffic visualiser, which captures traffic going through the host it is running from and displays streams sorted by bandwidth they use. [Screenshot](http://jnettop.kubs.info/wiki/?binary=internal%3A%2F%2F76195466cc3bca92f8de7b404e240844.gif)
+* **Dstat**: is a versatile tool (written in python) that can monitor different system statistics and report them in a batch style mode or log the data to a csv or similar file. This example shows how to use dstat to report network bandwidth 
 
-* **Nethogs**: is a small 'net top' tool that shows the bandwidth used by individual processes and sorts the list putting the most intensive processes on top. In the event of a sudden bandwidth spike, quickly open nethogs and find the process responsible. Nethogs reports the PID, user and the path of the program. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/nethogs.png)
+![Screenshot](http://dag.wiee.rs/home-made/dstat/dstat.png)
 
-* **Netload**: displays a small report on the current traffic load, and the total number of bytes transferred since the program start. No more features are there. Its part of the netdiag. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/netload.png)
+* **Ifstat**: reports the network bandwidth in a batch style mode. The output is in a format that is easy to log and parse using other programs or utilities. 
 
-* **Netwatch**: is part of the netdiag collection of tools, and it too displays the connections between local host and other remote hosts, and the speed at which data is transferring on each connection. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/netwatch.png)
+![Screenshot](https://community.linuxmint.com/img/screenshots/ifstat.png)
 
-* **Nload**: is a commandline tool that allows users to monitor the incoming and outgoing traffic separately. It also draws outa graph to indicate the same, the scale of which can be adjusted. Easy and simple to use, and does not support many options. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/nload.png)
+* **Iftop**: measures the data flowing through individual socket connections, and it works in a manner that is different from Nload. Iftop uses the pcap library to capture the packets moving in and out of the network adapter, and then sums up the size and count to find the total bandwidth under use. Although iftop reports the bandwidth used by individual connections, it cannot report the process name/id involved in the particular socket connection. But being based on the pcap library, iftop is able to filter the traffic and report bandwidth usage over selected host connections as specified by the filter. 
 
-* **Pktstat**: displays all the active connections in real time, and the speed at which data is being transferred through them. It also displays the type of the connection, i.e. tcp or udp and also details about http requests if involved. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/pktstat.png)
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/iftop.png)
 
-* **Slurm**: is 'yet' another network load monitor that shows device statistics along with an ascii graph. It supports 3 different styles of graphs each of which can be activated using the c, s and l keys. Simple in features, slurm does not display any further details about the network load. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/slurm.png)
+* **Iptraf**: is an interactive and colorful IP Lan monitor. It shows individual connections and the amount of data flowing between the hosts. 
 
-* **Speedometer**: Another small and simple tool that just draws out good looking graphs of incoming and outgoing traffic through a given interface. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/speedometer.png)
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/iptraf.png)
 
-* **Tcptrack**: is similar to iftop, and uses the pcap library to capture packets and calculate various statistics like the bandwidth used in each connection. It also supports the standard pcap filters that can be used to monitor specific connections. [Screenshot](http://www.binarytides.com/blog /wp-content/uploads/2014/03/tcptrack.png)
+* **Jnettop**: [Jnettop](http://jnettop.kubs.info/wiki/) is a traffic visualiser, which captures traffic going through the host it is running from and displays streams sorted by bandwidth they use. 
 
-* **Trafshow**: reports the current active connections, their protocol and the data transfer speed on each connection. It can filter out connections using pcap type filters. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/trafshow.png)
+![Screenshot](https://i0.wp.com/pessoa.eti.br/media/2010/01/Artigo-Monitorando-a-rede-com-jnettop.gif?ssl=1)
 
-* **Vnstat**: is bit different from most of the other tools. It actually runs a background service/daemon and keeps recording the size of data transfer all the time. Next it can be used to generate a report of the history of network usage. [Screenshot]()
+* **Nethogs**: is a small 'net top' tool that shows the bandwidth used by individual processes and sorts the list putting the most intensive processes on top. In the event of a sudden bandwidth spike, quickly open nethogs and find the process responsible. Nethogs reports the PID, user and the path of the program. 
+
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/nethogs.png)
+
+* **Netload**: displays a small report on the current traffic load, and the total number of bytes transferred since the program start. No more features are there. Its part of the netdiag. 
+
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/netload.png)
+
+* **Netwatch**: is part of the netdiag collection of tools, and it too displays the connections between local host and other remote hosts, and the speed at which data is transferring on each connection. 
+
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/netwatch.png)
+
+* **Nload**: is a commandline tool that allows users to monitor the incoming and outgoing traffic separately. It also draws outa graph to indicate the same, the scale of which can be adjusted. Easy and simple to use, and does not support many options. 
+
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/nload.png)
+
+* **Pktstat**: displays all the active connections in real time, and the speed at which data is being transferred through them. It also displays the type of the connection, i.e. tcp or udp and also details about http requests if involved. 
+
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/pktstat.png)
+
+* **Slurm**: is 'yet' another network load monitor that shows device statistics along with an ascii graph. It supports 3 different styles of graphs each of which can be activated using the c, s and l keys. Simple in features, slurm does not display any further details about the network load. 
+
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/slurm.png)
+
+* **Speedometer**: Another small and simple tool that just draws out good looking graphs of incoming and outgoing traffic through a given interface. 
+
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/speedometer.png)
+
+* **Tcptrack**: is similar to iftop, and uses the pcap library to capture packets and calculate various statistics like the bandwidth used in each connection. It also supports the standard pcap filters that can be used to monitor specific connections. 
+
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/tcptrack.png)
+
+* **Trafshow**: reports the current active connections, their protocol and the data transfer speed on each connection. It can filter out connections using pcap type filters. 
+
+![Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/trafshow.png)
+
+* **Vnstat**: is bit different from most of the other tools. It actually runs a background service/daemon and keeps recording the size of data transfer all the time. Next it can be used to generate a report of the history of network usage. 
+
+![Screenshot](https://www.howtoforge.com/images/vnstat/big/vnstat9.png)
 
 
 
@@ -65,7 +105,11 @@ Traffic Capture<a name="capture"></a>
 
 * [Libpcap/Tcpdump](http://www.tcpdump.org/): The official site of tcpdump, a powerful command-line packet analyzer; and libpcap, a portable C/C++ library for network traffic capture.
 
+![Screenshot](http://geek-university.com/wp-content/images/linux/tcpdump_command.jpg)
+
 * [Ngrep](http://ngrep.sourceforge.net/): strives to provide most of GNU grep's common features, applying them to the network layer. ngrep is a pcap-aware tool that will allow you to specify extended regular or hexadecimal expressions to match against data payloads of packets. It currently recognizes TCP, UDP and ICMP across Ethernet, PPP, SLIP, FDDI, Token Ring and null interfaces, and understands bpf filter logic in the same fashion as more common packet sniffing tools, such as tcpdump and snoop.
+
+![Screenshot](https://www.cyberciti.biz/media/new/cms/2012/12/ngrep.png)
 
 * [clj-net-pcap](https://github.com/ruedigergad/clj-net-pcap): `clj-net-pcap` is a packet capturing library for Clojure. clj-net-pcap uses jNetPcap and adds convenience functionality around jNetPcap for easing the usability. A [paper on clj-net-pcap](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6903107) was published in scope of COMPSACW 2014.
 
