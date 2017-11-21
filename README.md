@@ -163,7 +163,7 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [Multitail](http://www.vanheusden.com/multitail): now has a colorscheme included for monitoring the tcpdump output. It can also filter, convert timestamps to timestrings and much more.
 
-* [Netsniff-ng](www.github.com/borkmann/netsniff-ng): Netsniff-ng is a toolkit of free Linux networking utilities, a Swiss army knife for your daily Linux network plumbing if you will.
+* [Netsniff-ng](https://github.com/borkmann/netsniff-ng): Netsniff-ng is a toolkit of free Linux networking utilities, a Swiss army knife for your daily Linux network plumbing if you will.
 
 * [NetDude](http://netdude.sourceforge.net/): (NETwork DUmp data Displayer and Editor). From their webpage, "it is a GUI-based tool that allows you to make detailed changes to packets in tcpdump tracefiles."
 
