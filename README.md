@@ -20,7 +20,7 @@ This project does not contain any source code or files. I just want to make a li
 Linux commands<a name="linuxcmds"></a>
 --------------------------------------
 
-* **Bmon**: (Bandwidth Monitor) is a tool similar to nload that shows the traffic load over all the network interfaces on the system. The output also consists of a graph and a section with packet level details. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03 /bmon- 640x480.png)
+* **Bmon**: (Bandwidth Monitor) is a tool similar to nload that shows the traffic load over all the network interfaces on the system. The output also consists of a graph and a section with packet level details. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/bmon-640x480.png)
 
 * **Bwm-ng**: (Bandwidth Monitor Next Generation) is another very simple real time network load monitor that reports a summary of the speed at which data is being transferred in and out of all available network interfaces on the system. [Screenshot]()
 
