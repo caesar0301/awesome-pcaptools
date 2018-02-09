@@ -699,12 +699,3 @@ http://www.cs.berkeley.edu/~abegel/sigcomm99/bpf+.ps
 
     A paper presented at SIGCOMM '96 on an enhanced version of BPF.
 http://www.pdos.lcs.mit.edu/~engler/dpf.html
-
-History
------------
-
-> * Update 2014-07-24: Traffic moniter tools under *nix (http://bit.do/J8qM)
-> * Update 2013-01-01: Another similar list from Wireshark
->   (http://wiki.wireshark.org/Tools)
-> * Update 2012-12-26: A similar collection of web version:
->   (http://bit.do/J8q4)
