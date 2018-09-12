@@ -20,11 +20,11 @@ This project does not contain any source code or files. I just want to make a li
 Linux commands<a name="linuxcmds"></a>
 --------------------------------------
 
-* **Bmon**: (Bandwidth Monitor) is a tool similar to nload that shows the traffic load over all the network interfaces on the system. The output also consists of a graph and a section with packet level details. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03 /bmon- 640x480.png)
+* **Bmon**: (Bandwidth Monitor) is a tool similar to nload that shows the traffic load over all the network interfaces on the system. The output also consists of a graph and a section with packet level details. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/bmon-640x480.png)
 
 * **Bwm-ng**: (Bandwidth Monitor Next Generation) is another very simple real time network load monitor that reports a summary of the speed at which data is being transferred in and out of all available network interfaces on the system. [Screenshot]()
 
-* **CBM**: (Color Bandwidth Meter) A tiny little simple bandwidth monitor that displays the traffic volume through network interfaces. No further options, just the traffic stats are display and updated in realtime. [Screenshot](http://www.binarytides.com/blog /wp-content/uploads/2014/03/cbm.png)
+* **CBM**: (Color Bandwidth Meter) A tiny little simple bandwidth monitor that displays the traffic volume through network interfaces. No further options, just the traffic stats are display and updated in realtime. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/cbm.png)
 
 * **Collectl**: reports system statistics in a style that is similar to dstat, and like dstat it is gathers statistics about various different system resources like cpu, memory, network etc. Over here is a simple example of how to use it to report network usage/bandwidth. [Screenshot]()
 
@@ -52,7 +52,7 @@ Linux commands<a name="linuxcmds"></a>
 
 * **Speedometer**: Another small and simple tool that just draws out good looking graphs of incoming and outgoing traffic through a given interface. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/speedometer.png)
 
-* **Tcptrack**: is similar to iftop, and uses the pcap library to capture packets and calculate various statistics like the bandwidth used in each connection. It also supports the standard pcap filters that can be used to monitor specific connections. [Screenshot](http://www.binarytides.com/blog /wp-content/uploads/2014/03/tcptrack.png)
+* **Tcptrack**: is similar to iftop, and uses the pcap library to capture packets and calculate various statistics like the bandwidth used in each connection. It also supports the standard pcap filters that can be used to monitor specific connections. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/tcptrack.png)
 
 * **Trafshow**: reports the current active connections, their protocol and the data transfer speed on each connection. It can filter out connections using pcap type filters. [Screenshot](http://www.binarytides.com/blog/wp-content/uploads/2014/03/trafshow.png)
 
