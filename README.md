@@ -227,6 +227,9 @@ USB
 * [usbmon](https://www.kernel.org/doc/Documentation/usb/usbmon.txt) - a subsystem of Linux kernel to capture usb packets.
 * [USBPcap](https://github.com/desowin/usbpcap) - a solution for Windows.
 
+### Analysis
+* [USBPcapOdinDumper](https://github.com/KOLANICH/USBPcapOdinDumper) - transforms .pcap files with `usbmon` and `USBPcap` frames format of captures from flashing an Android phone with Odin or [Heimdall](https://gitlab.com/BenjaminDobell/Heimdall) into a set of files with frames payload. Useful for reverse-engineering. Has a modular architecture easily transformable for other applications formats.
+
 
 Related Projects<a name="others"></a>
 --------------------------------------
