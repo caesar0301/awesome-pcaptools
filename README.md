@@ -221,6 +221,11 @@ File Extraction<a name="fileextraction"></a>
 
 * [Xplico](http://www.xplico.org/about): The goal of Xplico is extract from an internet traffic capture the applications data contained. For example, from a pcap file Xplico extracts each email (POP, IMAP, and SMTP protocols), all HTTP contents, each VoIP call (SIP), FTP, TFTP, and so on. Xplico isn't a network protocol analyzer. Xplico is an open source Network Forensic An alysis Tool (NFAT). Xplico is released under the GNU General Public License and with some scripts under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) License.
 
+USB
+---
+### Capture tools
+* [usbmon](https://www.kernel.org/doc/Documentation/usb/usbmon.txt) - a subsystem of Linux kernel to capture usb packets.
+* [USBPcap](https://github.com/desowin/usbpcap) - a solution for Windows.
 
 
 Related Projects<a name="others"></a>
