@@ -177,6 +177,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [WinPcap](http://www.tcpdump.org/wpcap.html): An extract of a message from Guy Harris on state of WinPcap and WinDump.
 
+* [WireEdit](https://wireedit.com/): WireEdit is a free desktop WYSIWYG editor for network packets. It allows editing any stack layer as "rich text" without having any knowledge of packets syntax and encoding rules. The input and output file format is Pcap.
+
 * [Wireshark suit](http://wiki.wireshark.org/Tools): The well-known tool suit to support packet analyzer and protocol decoder. It also includes a few practical tools and scripts to support most of the common usage.
 
 * [Xplot](http://www.xplot.org/): The program xplot was written in the late 1980s to support the analysis of TCP packet traces.
