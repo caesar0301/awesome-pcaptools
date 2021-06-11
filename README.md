@@ -91,8 +91,6 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [AIEngine](https://bitbucket.org/camp0/aiengine): is a next generation interactive/programmable packet inspection engine with capabilities of learning without any human intervention, NIDS functionality, DNS domain classification, network collector and many others. AIEngine also helps network/security professionals to identify traffic and develop signatures for use them on NIDS, Firewalls, Traffic classifiers and so on.
 
-* [Bro](http://bro-ids.org/): is an open-source, Unix-based Network Intrusion Detection System (NIDS) that passively monitors network traffic and looks for suspicious activity. Bro detects intrusions by first parsing network traffic to extract its application- level semantics and then executing event-oriented analyzers that compare the activity with patterns deemed troublesome. Its analysis includes detection of specific attacks (including those defined by signatures, but also those defined in terms of events) and unusual activities (e.g., certain hosts connecting to certain services, or patterns of failed connection attempts).
-
 * [CapAnalysis](http://www.capanalysis.net/ca/) - CapAnalysis is a web visual tool for information security specialists, system administrators and everyone who needs to analyze large amounts of captured network traffic. A live web demo is [available](http://pcap.capanalysis.net/) for testing.
 
 * [CapTipper](https://github.com/omriher/CapTipper): Malicious HTTP traffic explorer
@@ -195,6 +193,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [yaraprocessor](https://github.com/MITRECND/yaraprocessor): With yaraprocessor YARA can be run against individual packet payloads as well as a concatenation of some or all of the payloads. It was originally written for use in Chopshop, but can also be used without it.
 
+* [Zeek](https://zeek.org/): (formerly Bro) is an open source software platform that provides compact, high-fidelity transaction logs, file content, and fully customized output to analysts, from the smallest home office to the largest, fastest research and commercial networks. From the FAQ:
+"Zeek provides a comprehensive platform for network traffic analysis, with a particular focus on semantic security monitoring at scale. While often compared to classic intrusion detection/prevention systems, Zeek takes a quite different approach by providing users with a flexible framework that facilitates customized, in-depth monitoring far beyond the capabilities of traditional systems. With initial versions already in operational deployment during the mid ‘90s, Zeek finds itself grounded in more than 20 years of research. For more information, see the Zeek Overview and our promotional document, Why Choose Zeek?."
 
 DNS Utilities <a name="dnstools"></a>
 --------------------------------------------
