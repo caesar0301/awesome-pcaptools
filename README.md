@@ -88,6 +88,7 @@ Traffic Capture<a name="capture"></a>
 
 Traffic Analysis/Inspection<a name="analysis"></a>
 --------------------------------------------------
+* [BruteShark](https://github.com/odedshimon/BruteShark): Is an open-source, cross-platform network forensic analysis tool with many features. It includes: password extracting,  displaying a visual network map, reconstruct TCP sessions, extract hashes of encrypted passwords and even convert them to a Hashcat format in order to perform an offline Brute Force attack.
 
 * [AIEngine](https://bitbucket.org/camp0/aiengine): is a next generation interactive/programmable packet inspection engine with capabilities of learning without any human intervention, NIDS functionality, DNS domain classification, network collector and many others. AIEngine also helps network/security professionals to identify traffic and develop signatures for use them on NIDS, Firewalls, Traffic classifiers and so on.
 
