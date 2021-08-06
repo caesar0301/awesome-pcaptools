@@ -71,7 +71,7 @@ Traffic Capture<a name="capture"></a>
 
 * [jNetPcap](http://jnetpcap.com): jNetPcap is a packet capturing library for Java that is available for Linux and Windows. jNetPcap leverages libpcap respectively WinPcap and employs the Java Native Interface (JNI) for using the functionality provided by libpcap/WinPcap.
 
-* [Moloch](https://github.com/aol/moloch): Moloch is a open source large scale full PCAP capturing, indexing and database system.
+* [Arkime](https://arkime.com/) Arkime (formerly Moloch) is a large scale, open source, indexed packet capture and search tool.
 
 * [n2disk](http://www.ntop.org/products/n2disk/) (Commercial): A multi-Gigabit network traffic recorder with indexing capabilities. n2disk is a network traffic recorder application. With n2disk you can capture full- sized network packets at multi-Gigabit rate (above 10 Gigabit/s on adequate hardware) from a live network interface, and write them into files without any packet loss.
 
