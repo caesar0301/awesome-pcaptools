@@ -69,7 +69,7 @@ Traffic Capture<a name="capture"></a>
 
 * [clj-net-pcap](https://github.com/ruedigergad/clj-net-pcap): `clj-net-pcap` is a packet capturing library for Clojure. clj-net-pcap uses jNetPcap and adds convenience functionality around jNetPcap for easing the usability. A [paper on clj-net-pcap](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6903107) was published in scope of COMPSACW 2014.
 
-* [jNetPcap](http://jnetpcap.com): jNetPcap is a packet capturing library for Java that is available for Linux and Windows. jNetPcap leverages libpcap respectively WinPcap and employs the Java Native Interface (JNI) for using the functionality provided by libpcap/WinPcap.
+* [jNetPcap](https://sourceforge.net/projects/jnetpcap/): jNetPcap is a packet capturing library for Java that is available for Linux and Windows. jNetPcap leverages libpcap respectively WinPcap and employs the Java Native Interface (JNI) for using the functionality provided by libpcap/WinPcap.
 
 * [Arkime](https://arkime.com/) Arkime (formerly Moloch) is a large scale, open source, indexed packet capture and search tool.
 
