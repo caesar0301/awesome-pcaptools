@@ -5,7 +5,7 @@ Introduction
 
 This project does not contain any source code or files. I just want to make a list of tools to process pcap files in research of network traffic. For more awesome lists, see https://github.com/sindresorhus/awesome
 
-**License**: Apache License v2.
+**License**: CC0 1.0 Universal (CC0 1.0).
 
 
 > * [Linux commands](#linuxcmds)
