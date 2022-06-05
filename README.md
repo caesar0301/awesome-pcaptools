@@ -85,6 +85,7 @@ Traffic Capture<a name="capture"></a>
 
 * [Yaf](https://tools.netsa.cert.org/yaf/yaf.html): It's a reliable piece of software, quite solid and able to generate flow records from pcap. This is very nice for indexing huge pcap or even doing packet capture. The recent version can even extract payloads and put in the flow records.
 
+* [sharppcap](https://github.com/dotpcap/sharppcap): Fully managed, cross platform (Windows, Mac, Linux) .NET library for capturing packets from live and file based devices. A realiable and robust wrapper of libpcap and npcap.
 
 Traffic Analysis/Inspection<a name="analysis"></a>
 --------------------------------------------------
