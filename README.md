@@ -81,6 +81,8 @@ Traffic Capture<a name="capture"></a>
 
 * [OpenFPC](https://github.com/leonward/OpenFPC): OpenFPC is a set of scripts that combine to provide a lightweight full-packet network traffic recorder & buffering tool. Its design goal is to allow non-expert users to deploy a distributed network traffic recorder on COTS hardware while integrating into existing alert and log tools.
 
+* [PCAPdroid](https://github.com/emanuele-f/PCAPdroid): PCAPdroid is an Android app which lets you monitor and export the network traffic of your device without root. Traffic can be dumped in the PCAP format to be analyzed with popular tools like Wireshark, even in real time. The built-in traffic monitor lets you detect suspicious connections made by user and system apps.
+
 * [PF_RING](https://www.ntop.org/products/packet-capture/pf_ring/): PF_RING is a new type of network socket that dramatically improves the packet capture speed. Available for Linux kernels 2.6.32 and newer. No need to patch the kernel. PF_RING-aware drivers for increased packet capture acceleration.
 
 * [TTT](https://www2.sonycsl.co.jp/person/kjc/kjc/software.html#ttt): (Tele Traffic Tapper) is yet another descendant of tcpdump but it is capable of real-time, graphical, and remote traffic-monitoring. ttt won't replace tcpdump, rather, it helps you find out what to look into with tcpdump. ttt monitors the network and automatically picks up the main contributors of the traffic within the time window. The graphs are updated every second by default.
