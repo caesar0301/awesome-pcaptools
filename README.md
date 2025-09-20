@@ -48,6 +48,8 @@ Linux commands<a name="linuxcmds"></a>
 
 * **Pktstat**: displays all the active connections in real time, and the speed at which data is being transferred through them. It also displays the type of the connection, i.e. tcp or udp and also details about http requests if involved. [Screenshot](https://www.binarytides.com/blog/wp-content/uploads/2014/03/pktstat.png)
 
+* **RustNet**: Cross-platform network monitoring TUI that provides real-time visibility into network connections with process identification (via eBPF on Linux, PKTAP on macOS) and deep packet inspection for protocol detection (HTTP, HTTPS/TLS, DNS, QUIC). Features multi-threaded packet processing and protocol-aware connection lifecycle management. [Screenshot](https://github.com/domcyrus/rustnet/blob/main/assets/rustnet.gif)
+
 * **Slurm**: is 'yet' another network load monitor that shows device statistics along with an ascii graph. It supports 3 different styles of graphs each of which can be activated using the c, s and l keys. Simple in features, slurm does not display any further details about the network load. [Screenshot](https://www.binarytides.com/blog/wp-content/uploads/2014/03/slurm.png)
 
 * **Speedometer**: Another small and simple tool that just draws out good looking graphs of incoming and outgoing traffic through a given interface. [Screenshot](https://www.binarytides.com/blog/wp-content/uploads/2014/03/speedometer.png)
