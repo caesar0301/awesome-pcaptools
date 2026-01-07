@@ -177,6 +177,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [Sniff](http://www.thedumbterminal.co.uk/software/sniff.html): Makes output from the tcpdump program easier to read and parse.
 
+* [Sniffnet](https://github.com/GyulyVGC/sniffnet): Sniffnet is a cross-platform, Rust-based, fully open-source network monitoring application to help everyone keep an eye on their Internet traffic. Sniffnet is a technical tool, but at the same time it strongly focuses on the overall user experience: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's cornerstones is to be usable with ease by virtually anyone. In an era dominated by network traffic encryption, Sniffnet doesn’t follow the standard monitoring approach that included reporting full packets’ payloads, but rather it provides flow-level details such as the country, the organization, the domain name, the upper-layer service, and other parameters that enable a more immediate understanding about the traffic nature.
+
 * [Snort](https://www.snort.org/): Snort is an open source network intrusion prevention and detection system (IDS/IPS) developed by Sourcefire, now owned by Cisco. Combining the benefits of signature, protocol and anomaly- based inspection, Snort is the most widely deployed IDS/IPS technology worldwide. With millions of downloads and approximately 500,000 registered users, Snort has become the de facto standard for IPS.
 
 * [Socket Sentry](https://github.com/rhasselbaum/socket-sentry): Socket Sentry is a real-time network traffic monitor for KDE Plasma in the same spirit as tools like iftop and netstat.
