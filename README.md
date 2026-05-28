@@ -143,6 +143,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [Network Expect](https://www.netexpect.org/): is a framework that allows to easily build tools that can interact with network traffic. Following a script, traffic can be injected into the network, and decisions can be taken, and acted upon, based on received network traffic. An interpreted language provides branching and high-level control structures to direct the interaction with the network. Network Expect uses libpcap for packet capture and libwireshark (from the Wireshark project) for packet dissection tasks. (GPL, BSD/Linux/OSX).
 
+* [netwatch](https://github.com/matthart1983/netwatch): Real-time network diagnostics TUI built on libpcap. Performs deep packet inspection across 13 protocols (TLS, QUIC, HTTP, DNS, SSH, MQTT, SNMP and more), full RFC 9001 QUIC Initial decryption with cross-packet ClientHello reassembly, per-process attribution via eBPF / PKTAP, TCP retransmit + out-of-order analytics, JA4 fingerprinting, optional Landlock sandbox, and Flight Recorder incident bundles (pcap + JSON + summary.md). Rust, MIT, macOS + Linux.
+
 * [nfdump](https://github.com/phaag/nfdump): is a powerful suite of tools for collecting, processing, and analysing flow data from network devices.
 
 * [NFStream](https://github.com/nfstream/nfstream): is a Python framework providing fast, flexible, and expressive data structures designed to make working with online or offline network data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world network data analysis in Python. Additionally, it has the broader goal of becoming a common network data analytics framework for researchers providing data reproducibility across experiments.
