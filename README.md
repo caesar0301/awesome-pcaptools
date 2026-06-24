@@ -141,6 +141,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [NetDude](http://netdude.sourceforge.net/): (NETwork DUmp data Displayer and Editor). From their webpage, "it is a GUI-based tool that allows you to make detailed changes to packets in tcpdump tracefiles."
 
+* [NetHawk](https://github.com/Flowtriq/nethawk): A Go-based TUI for real-time network traffic analysis. Single binary, zero config. Features bandwidth monitoring, protocol breakdown, top talkers, and DDoS attack detection using gopacket for packet capture.
+
 * [Network Expect](https://www.netexpect.org/): is a framework that allows to easily build tools that can interact with network traffic. Following a script, traffic can be injected into the network, and decisions can be taken, and acted upon, based on received network traffic. An interpreted language provides branching and high-level control structures to direct the interaction with the network. Network Expect uses libpcap for packet capture and libwireshark (from the Wireshark project) for packet dissection tasks. (GPL, BSD/Linux/OSX).
 
 * [nfdump](https://github.com/phaag/nfdump): is a powerful suite of tools for collecting, processing, and analysing flow data from network devices.
