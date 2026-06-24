@@ -117,6 +117,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [ECap](https://web.archive.org/web/20170715080351/https://bitbucket.org/nathanj/ecap/wiki/Home): (External Capture) is a distributed network sniffer with a web front- end. Ecap was written many years ago in 2005, but a post on the tcpdump-workers mailing list requested a similar application... so here it is. It would be fun to update it and work on it again if there's any interest.
 
+* [ftagent-lite](https://github.com/Flowtriq/ftagent-lite): A lightweight, single-file DDoS traffic monitor. Captures packets via raw sockets and reports PPS, bandwidth, protocol breakdown, source IP cardinality, and attack severity in real time. Outputs structured JSON for piping into custom alerting or analysis pipelines.
+
 * [EtherApe](https://etherape.sourceforge.io/): is a graphical network monitor for Unix modeled after etherman. Featuring link layer, ip and TCP modes, it displays network activity graphically. Hosts and links change in size with traffic. Color coded protocols display. It supports Ethernet, FDDI, Token Ring, ISDN, PPP and SLIP devices. It can filter traffic to be shown, and can read traffic from a file as well as live from the network.
 
 * [Ettercap](https://github.com/Ettercap/ettercap): is a suite of tools for traffic capture and analysis using ARP Poisoning (A form of MitM attack, only use on networks you control)
