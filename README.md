@@ -207,6 +207,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [Tstat](http://tstat.tlc.polito.it/): A passive sniffer able to provide several insight on the traffic patterns at both the network and transport levels with a tremendous set of flow features.
 
+* [VisualEther](https://www.eventhelix.com/visualether/): converts Wireshark PCAP/PCAPNG captures into readable sequence diagrams and ships an MCP server so an AI agent can analyze a capture; built on tshark, free Community edition.
+
 * [WAND](https://research.wand.net.nz/): A wonderful collection of tools built on libtrace to process network traffic, which is from The University of Waikato. I love this project!
 
 * [WinDivert](https://github.com/basil00/WinDivert): is a Windows library for user-mode packet interception.
