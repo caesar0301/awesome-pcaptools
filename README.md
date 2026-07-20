@@ -102,6 +102,7 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 * [BruteShark](https://github.com/odedshimon/BruteShark): Is an open-source, cross-platform network forensic analysis tool with many features. It includes: password extracting,  displaying a visual network map, reconstruct TCP sessions, extract hashes of encrypted passwords and even convert them to a Hashcat format in order to perform an offline Brute Force attack.
 
 * [AIEngine](https://bitbucket.org/camp0/aiengine): is a next generation interactive/programmable packet inspection engine with capabilities of learning without any human intervention, NIDS functionality, DNS domain classification, network collector and many others. AIEngine also helps network/security professionals to identify traffic and develop signatures for use them on NIDS, Firewalls, Traffic classifiers and so on.
+* [AuraSniff](https://github.com/vatsalgargg/aurasniff): A premium, interactive terminal-based network packet analyzer that maps IP-to-websites, extracts credentials, and chains Gemini + Claude in a Dual-LLM Ensemble Mode for deep forensic analysis.
 
 * [CapAnalysis](http://www.capanalysis.net/ca/) - CapAnalysis is a web visual tool for information security specialists, system administrators and everyone who needs to analyze large amounts of captured network traffic. A live web demo is [available](http://pcap.capanalysis.net/) for testing.
 
