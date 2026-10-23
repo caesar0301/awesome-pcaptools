@@ -50,6 +50,8 @@ Linux commands<a name="linuxcmds"></a>
 
 * **Slurm**: is 'yet' another network load monitor that shows device statistics along with an ascii graph. It supports 3 different styles of graphs each of which can be activated using the c, s and l keys. Simple in features, slurm does not display any further details about the network load. [Screenshot](https://www.binarytides.com/blog/wp-content/uploads/2014/03/slurm.png)
 
+* **[Snitch](https://github.com/aixisstudio/Snitch)**: local-first, open-source outbound firewall and network monitor for Windows/macOS/Linux — libpcap capture with per-process attribution, traffic graph UI, block rules, SIEM export and a Rust fleet agent. No telemetry.
+
 * **Speedometer**: Another small and simple tool that just draws out good looking graphs of incoming and outgoing traffic through a given interface. [Screenshot](https://www.binarytides.com/blog/wp-content/uploads/2014/03/speedometer.png)
 
 * **Tcptrack**: is similar to iftop, and uses the pcap library to capture packets and calculate various statistics like the bandwidth used in each connection. It also supports the standard pcap filters that can be used to monitor specific connections. [Screenshot](https://www.binarytides.com/blog/wp-content/uploads/2014/03/tcptrack.png)
