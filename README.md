@@ -152,6 +152,7 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 * [Ntopng](https://www.ntop.org/products/traffic-analysis/ntop/): Ntopng is the next generation version of the original ntop, a network traffic probe that shows the network usage, similar to what the popular top Unix command does. ntop is based on libpcap and it has been written in a portable way in order to virtually run on every Unix platform, MacOSX and on Win32 as well.
 
 * [Ostinato](https://ostinato.org/): Ostinato is a versatile packet crafter, pcap editor/player and traffic generator with an intuitive GUI. Add-ons include high-speed 10/25/40G traffic generation and scripting/ automation Python APIs. Works on all platforms - Windows, MacOS, Linux and the labbing platforms - CML, EVE-NG and GNS3.
+* [ProtocolForge](https://github.com/yangying-dev/protocol-forge): Cross-platform 3GPP protocol workbench for inspecting, editing, and replaying PFCP/NGAP/GTP-U/NAS/S1AP/Diameter packets from PCAP files. Built with .NET 10 + Avalonia, powered by tshark. Free and open source (Apache-2.0).
 
 * [packemon](https://github.com/ddddddO/packemon): Packet monster (っ‘-’)╮=͟͟͞͞◒ ヽ( '-'ヽ) TUI tool for sending packets of arbitrary input and monitoring packets on any network interfaces (default: eth0).
 
