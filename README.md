@@ -123,6 +123,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [HttpSniffer](https://github.com/caesar0301/http-sniffer): A multi-threading tool to sniff TCP flow statistics and embedded HTTP headers from PCAP file. Each TCP flow carrying HTTP is exported to text file in JSON format.
 
+* [iotaudit](https://github.com/emirmrkaljevic/iotaudit): Reads a pcap (or a PCAPdroid capture, or captures passively on your own network), groups traffic per smart home device, identifies each device and writes a one-page report of where it connects, with flags for unexpected destinations. Runs locally, no telemetry.
+
 * [Ipsumdump](https://github.com/kohler/ipsumdump): summarizes TCP/IP dump files into a self-describing ASCII format easily readable by humans and programs. Ipsumdump can read packets from network interfaces, from tcpdump files, and from existing ipsumdump files. It will transparently uncompress tcpdump or ipsumdump files when necessary. It can randomly sample traffic, filter traffic based on its contents, anonymize IP addresses, and sort packets from multiple dumps by timestamp. Also, it can optionally create a tcpdump file containing actual packet data. It's also convenient to work with CLICK as a inserted module.
 
 * [ITA](https://web.archive.org/web/20181016104652/http://ita.ee.lbl.gov/html/traces.html): The Internet Traffic Archive is a moderated repository to support widespread access to traces of Internet network traffic, sponsored by ACM SIGCOMM. The traces can be used to study network dynamics, usage characteristics, and growth patterns, as well as providing the grist for trace- driven simulations. The archive is also open to programs for reducing raw trace data to more manageable forms, for generating synthetic traces, and for analyzing traces.
