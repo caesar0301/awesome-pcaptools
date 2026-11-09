@@ -275,6 +275,7 @@ USB
 
 ### Analysis
 * [USBPcapOdinDumper](https://github.com/KOLANICH/USBPcapOdinDumper) - transforms .pcap files with `usbmon` and `USBPcap` frames format of captures from flashing an Android phone with Odin or [Heimdall](https://gitlab.com/BenjaminDobell/Heimdall) into a set of files with frames payload. Useful for reverse-engineering. Has a modular architecture easily transformable for other applications formats.
+* [usb-rea](https://github.com/emirmrkaljevic/usb-rea) - Infers USB gadget protocols from labelled usbmon/USBPcap captures (values, counters, CRCs) and generates a pyusb driver plus Wireshark Lua dissectors.
 
 
 Related Projects<a name="others"></a>
