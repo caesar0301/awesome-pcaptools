@@ -111,6 +111,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [CoralReef](https://www.caida.org/tools/measurement/coralreef/): is a software suite developed by CAIDA to analyze data collected by passive Internet traffic monitors. It provides a programming library libcoral, similar to libpcap with extensions for ATM and other network types, which is available from both C and Perl.
 
+* [Deepacket](https://github.com/ZeroVectorLabs/deepacket): A pcap/pcapng analyzer that runs entirely in the browser. It reconstructs the attack flow, maps detections to MITRE ATT&CK, draws a network map, and carves files, cleartext credentials and indicators, with no server or install.
+
 * [DPDK](https://www.dpdk.org/): is a set of libraries and drivers for fast packet processing. It was designed to run on any processors. The first supported CPU was Intel x86 and it is now extended to IBM Power 8, EZchip TILE-Gx and ARM. It runs mostly in Linux userland. A FreeBSD port is available for a subset of DPDK features.
 
 * [DPKT](https://github.com/kbandla/dpkt): Python packet creation/parsing library.
