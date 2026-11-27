@@ -105,6 +105,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 
 * [CapAnalysis](http://www.capanalysis.net/ca/) - CapAnalysis is a web visual tool for information security specialists, system administrators and everyone who needs to analyze large amounts of captured network traffic. A live web demo is [available](http://pcap.capanalysis.net/) for testing.
 
+* [capsight](https://github.com/Kx96xx/capsight): reads a mobile-core capture (Diameter, GTPv2-C, PFCP, NAS, S1AP/NGAP, MAP, RADIUS, GTP-U) with tshark and says in plain English why a device could not attach, register, roam or get data, citing the packet numbers. It links causes across protocols, e.g. a gateway's "system failure" that only passes on a UPF or PCRF refusal.
+
 * [CapTipper](https://github.com/omriher/CapTipper): Malicious HTTP traffic explorer
 
 * [Chopshop](https://github.com/MITRECND/chopshop): is a MITRE developed framework to aid analysts in the creation and execution of pynids based decoders and detectors of APT tradecraft.
@@ -204,6 +206,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 * [Tcptrace](https://github.com/blitz/tcptrace): A tool written by Shawn Ostermann at Ohio University, for analysis of TCP dump files. It can take as input the files produced by several popular packet- capture programs, including tcpdump, snoop, etherpeek, HP Net Metrix, and WinDump. tcptrace can produce several different types of output containing information on each connection seen, such as elapsed time, bytes and segments sent and received, retransmissions, round trip times, window advertisements, throughput, and more. It can also produce a number of graphs for further analysis.
 
 * [TraceWrangler](https://www.tracewrangler.com/): TraceWrangler is a network capture file toolkit running on Windows (or on Linux, using WINE) that supports PCAP as well as the new PCAPng file format, which is now the standard file format used by Wireshark. The most prominent use case for TraceWrangler is the easy sanitization and anonymization of PCAP and PCAPng files (sometimes called "trace files", "capture files" or "packet captures"), removing or replacing sensitive data while being easy to use.
+
+* [tshark-mcp](https://github.com/Kx96xx/tshark-mcp): a read-only MCP server that lets AI assistants analyse existing pcap/pcapng files with tshark: it pairs requests with answers across Diameter, GTP, SIP/RTP, SIGTRAN, DNS, TCP and TLS, names cause codes and flags captures that cannot be trusted.
 
 * [Tstat](http://tstat.tlc.polito.it/): A passive sniffer able to provide several insight on the traffic patterns at both the network and transport levels with a tremendous set of flow features.
 
