@@ -228,6 +228,8 @@ Traffic Analysis/Inspection<a name="analysis"></a>
 * [Zeek](https://zeek.org/): (formerly Bro) is an open source software platform that provides compact, high-fidelity transaction logs, file content, and fully customized output to analysts, from the smallest home office to the largest, fastest research and commercial networks. From the FAQ:
 "Zeek provides a comprehensive platform for network traffic analysis, with a particular focus on semantic security monitoring at scale. While often compared to classic intrusion detection/prevention systems, Zeek takes a quite different approach by providing users with a flexible framework that facilitates customized, in-depth monitoring far beyond the capabilities of traditional systems. With initial versions already in operational deployment during the mid ‘90s, Zeek finds itself grounded in more than 20 years of research. For more information, see the Zeek Overview and our promotional document, Why Choose Zeek?."
 
+* **PCAP Surgery**: A local-first desktop PCAP analyzer and editor for Windows and Linux that previews bounded header rewrites, identifies supported IPv4/TCP/UDP checksum repairs, and keeps packet scope and untouched source evidence visible before export (free Community Edition). [Homepage](https://hannes-software.com/pcap-surgery/) | [Releases](https://github.com/hannes-wan/pcap-surgery-official)
+
 DNS Utilities <a name="dnstools"></a>
 --------------------------------------------
 
